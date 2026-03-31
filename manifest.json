@@ -1,0 +1,22 @@
+{
+  "name": "Canzoniere",
+  "short_name": "Canzoniere",
+  "description": "Canzoniere interattivo con accordi, trasposizione e scaletta per la Messa",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect width='512' height='512' rx='96' fill='%232563eb'/><text x='256' y='380' font-size='320' text-anchor='middle' fill='white'>&#9835;</text></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["music", "entertainment"],
+  "lang": "it",
+  "dir": "ltr"
+}

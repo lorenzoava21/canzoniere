@@ -1,0 +1,5814 @@
+// Canzoniere Interattivo - Dati canzoni completi
+// Estratto da Canzoniere Scout 3.8
+var SONGS = [
+
+{
+  id: "acqua-siamo-noi",
+  title: "Acqua siamo noi",
+  categories: ["scout"],
+  liturgia: [],
+  tempo: [],
+  content: `RE       LA    RE        SOL     LA        RE
+Acqua siamo noi, dall'antica sorgente veniamo,
+RE       LA    RE        SOL     LA        RE
+fiumi siamo noi, se i ruscelli si mettono insieme,
+RE    LA    RE        SOL     LA        RE
+mari siamo noi, se i torrenti si danno la mano
+RE    LA      SI-       SOL     LA        RE
+vita nuova c'e, se Gesu e in mezzo a noi.
+
+Rit.
+          FA#-       SI-          FA#-        SI-
+E allora diamoci la mano e tutti insieme camminiamo
+          FA#-       SI-          LA4 LA
+ed un oceano di pace nascera
+          MI-     LA          MI-        LA
+e l'egoismo cancelliamo un cuore limpido sentiamo
+          MI-            LA7           RE SOL LA
+e Dio che bagna del suo amor l'umanita.
+
+RE    LA    RE    SOL     LA        RE
+Su nel cielo c'e, Dio Padre che vive per l'uomo,
+RE    LA    RE    SOL     LA        RE
+crea tutti noi e ci ama di amore infinito,
+RE    LA    RE    SOL     LA        RE
+figli siamo noi e fratelli di Cristo Signore,
+RE    LA      SI-       SOL     LA        RE
+vita nuova c'e, quando Lui e in mezzo a noi.
+
+Rit.
+          FA#-       SI-          FA#-        SI-
+E allora diamoci la mano e tutti insieme camminiamo
+          FA#-       SI-          LA4 LA
+ed un oceano di pace nascera
+          MI-     LA          MI-        LA
+e l'egoismo cancelliamo un cuore limpido sentiamo
+          MI-            LA7           RE SOL LA
+e Dio che bagna del suo amor l'umanita.
+
+RE    LA    RE    SOL     LA        RE
+Nuova umanita, oggi nasce da chi crede in Lui,
+RE    LA    RE    SOL     LA        RE
+nuovi siamo noi, se l'amore e la legge di vita,
+RE    LA    RE    SOL     LA        RE
+figli siamo noi, se non siamo divisi da niente,
+RE    LA      SI-       SOL     LA        RE
+vita eterna c'e, quando Lui e dentro a noi.
+
+Rit.
+          FA#-       SI-          FA#-        SI-
+E allora diamoci la mano e tutti insieme camminiamo
+          FA#-       SI-          LA4 LA
+ed un oceano di pace nascera
+          MI-     LA          MI-        LA
+e l'egoismo cancelliamo un cuore limpido sentiamo
+          MI-            LA7           RE SOL LA
+e Dio che bagna del suo amor l'umanita.`
+},
+
+{
+  id: "agnello-di-dio",
+  title: "Agnello di Dio",
+  categories: ["chiesa"],
+  liturgia: ["comunione"],
+  tempo: [],
+  content: `LA-       FA
+Agnello di Dio
+RE-           MI
+che togli i peccati del mondo
+LA-       FA
+abbi pieta di noi
+RE-  MI-  LA-
+abbi pieta di noi
+
+LA-       FA
+Agnello di Dio
+RE-           MI
+che togli i peccati del mondo
+LA-       FA
+abbi pieta di noi
+RE-  MI-  LA-
+abbi pieta di noi
+
+LA-       FA
+Agnello di Dio ...
+RE-           MI
+che togli i peccati del mondo
+LA-    MI-  LA-
+dona a noi la pace
+FA    SOL   DO
+dona a noi la pace
+LA-   SOL    LA
+dona a noi la pace.`
+},
+
+{
+  id: "alleluia-correte-fedeli",
+  title: "Alleluia correte fedeli",
+  categories: ["chiesa"],
+  liturgia: ["alleluia"],
+  tempo: ["natale"],
+  content: `intro: LA- DO RE FA LA- MI LA- MI
+
+LA- DO RE FA LA- MI LA- MI
+Alleluia, Alleluia, Alleluia.
+
+LA- DO RE FA LA- MI LA- MI
+Alleluia, Alleluia, Alleluia.
+
+     LA-       DO
+Correte fedeli, e nato il Signore,
+     RE        MI
+e nato il nostro Redentore.
+     LA-       DO
+Nei nostri occhi una nuova luce,
+     RE        MI
+nei nostri cuori una voglia di amare.
+
+LA- DO RE FA LA- MI LA- MI
+Alleluia, Alleluia, Alleluia.
+LA- DO RE FA LA- MI LA- MI
+Alleluia, Alleluia, Alleluia.
+
+finale: LA- LAsus4 LA4 LA
+
+Canto al Vangelo
+Tempo di Natale`
+},
+
+{
+  id: "alleluia-la-nostra-festa",
+  title: "Alleluia la nostra festa",
+  categories: ["chiesa"],
+  liturgia: ["alleluia"],
+  tempo: [],
+  content: `INTRO: Do Fa Do Sol
+
+DO    FA
+Alleluia alleluia,
+DO    SOL
+alleluia alleluia.
+DO    FA
+Alleluia alleluia,
+DO SOL DO
+alleluia. (2 volte)
+
+DO         FA       SOL      DO
+La nostra festa non deve finire,
+LA-      RE-    SOL7     DO
+non deve finire e non finira.
+DO         FA       SOL      DO
+La nostra festa non deve finire,
+LA-      RE-    SOL7     DO
+non deve finire e non finira.
+FA      SOL    DO      LA-
+Perche la festa siamo noi,
+FA         SOL          DO DO7
+che camminiamo verso te.
+FA      SOL    DO      LA-
+Perche la festa siamo noi,
+RE7               SOL
+cantando insieme cosi.
+
+DO    FA
+Alleluia alleluia,
+DO    SOL
+alleluia alleluia.
+DO    FA
+Alleluia alleluia,
+DO SOL DO
+alleluia. (2 volte)`
+},
+
+{
+  id: "alleluia-mite-balduzzi",
+  title: "Alleluia (Mite Balduzzi)",
+  categories: ["chiesa"],
+  liturgia: ["alleluia"],
+  tempo: ["ordinario"],
+  content: `intro: SI- LA RE MI- LA SI- LA RE MI- FA#- SI-
+
+SI- LA RE   MI-    LA  SI- LA RE   MI- FA#- SI-
+Alleluia, Allelu    ia. Alleluia Allelu      ia
+SI- LA RE   MI-    LA  SI- LA RE   MI- FA#- SI-
+Alleluia, Allelu    ia. Alleluia Allelu      ia
+
+SI-           LA SI- LA MI- FA#- SOL LA
+Alleluialleluia Alleluia Alleluia Alleluia (Alleluia)
+SI-           LA SI- LA MI- FA#- SOL LA
+Alleluialleluia Alleluia Alleluia Alleluia (Alleluia)
+
+SI- LA RE   MI-    LA  SI- LA RE   MI- FA#- SOL
+Alleluia, Allelu    ia. Alleluia Allelu      ia
+SI- LA RE   MI-    LA  SI- LA RE   MI- FA#- SOL
+Alleluia, Allelu    ia. Alleluia Allelu      ia
+
+finale: SOL
+
+Canto al Vangelo
+Tempo Ordinario`
+},
+
+{
+  id: "alleluia-questa-tua-parola",
+  title: "Alleluia (questa tua parola)",
+  categories: ["chiesa"],
+  liturgia: ["alleluia"],
+  tempo: [],
+  content: `RE  RE4  RE  RE4
+
+RE        LA
+Alleluia, Alleluia
+SI-       FA#-
+Alleluia, Alleluia
+SOL    RE     MI
+Alleluia, Alleluia, Alleluia
+LA4 LA
+Alleluia
+
+RE  RE4  RE  RE4
+
+RE            LA
+Questa Tua parola non avra mai fine
+SOL         RE       RE4
+ha varcato i cieli e portera i suoi frutti
+
+RE            LA
+Questa Tua parola non avra mai fine
+SOL         LA4       LA
+ha varcato i cieli e portera i suoi frutti
+
+RE        LA
+Alleluia, Alleluia
+SI-       FA#-
+Alleluia, Alleluia
+SOL    RE     MI
+Alleluia, Alleluia, Alleluia
+LA4 LA
+Alleluia
+
+RE  RE4  RE  RE4`
+},
+
+{
+  id: "alleluia-taize",
+  title: "Alleluia di Taize",
+  categories: ["chiesa"],
+  liturgia: ["alleluia"],
+  tempo: ["ordinario"],
+  content: `RE        FA#-      SI-    SOL  RE  SOL     RE        MI LA7
+Canto per Cristo che mi liberera, quando verra nella gloria,
+RE        FA#-      SI-    SOL  RE SOL     RE        LA7 RE
+quando la vita con lui rinascera. Alleluia, alleluia !
+
+RE   FA#-    SI-   SOL RE SOL   RE        SOL MI LA7
+Alleluia, Alleluia, Alleluia, Alleluia, Alleluia !
+RE   FA#-    SI-   SOL RE SOL   RE        LA7 RE
+Alleluia, Alleluia, Alleluia, Alleluia, Alleluia !
+
+RE   FA#-   SI-   SOL  RE  SOL    RE        MI LA7
+Canto per Cristo: in Lui rifiorira, ogni speranza perduta
+RE   FA#-   SI-   SOL  RE SOL    RE        LA7 RE
+ogni creatura con Lui risorgera. Alleluia, alleluia !
+
+RE   FA#-    SI-   SOL RE SOL   RE        SOL MI LA7
+Alleluia, Alleluia, Alleluia, Alleluia, Alleluia !
+
+RE   FA#-   SI-   SOL  RE  SOL    RE        MI LA7
+Canto per Cristo: un giorno tornera, festa per tutti gli amici
+RE   FA#-   SI-   SOL  RE SOL    RE        LA7 RE
+festa di un mondo che piu non morira. Alleluia, alleluia !
+
+RE   FA#-    SI-   SOL RE SOL   RE        SOL MI LA7
+Alleluia, Alleluia, Alleluia, Alleluia, Alleluia !
+RE   FA#-    SI-   SOL RE SOL   RE        LA7 RE
+Alleluia, Alleluia, Alleluia, Alleluia, Alleluia !
+
+RE   FA#-   SI-   SOL  RE  SOL    RE        MI LA7
+Cristo risorto e vivo in mezzo a noi, viene a portarci la pace
+RE   FA#-   SI-   SOL  RE SOL    RE        LA7 RE
+vinta e la morte in nome di Gesu. Alleluia, alleluia !
+
+RE   FA#-    SI-   SOL RE SOL   RE        SOL MI LA7
+Alleluia, Alleluia, Alleluia, Alleluia, Alleluia !
+RE   FA#-    SI-   SOL RE SOL   RE        LA7 RE
+Alleluia, Alleluia, Alleluia, Alleluia, Alleluia !
+
+RE   FA#-   SI-   SOL  RE  SOL    RE        MI LA7
+Nella tua notte un fuoco danzera, Cristo e risorto alleluia
+RE   FA#-   SI-   SOL  RE SOL    RE        LA7 RE
+popolo canta la tua liberta. Alleluia, alleluia !
+
+RE   FA#-   SI-   SOL  RE  SOL    RE        MI LA7
+Nella tua alba un canto echeggera, la morte e vinta alleluia
+RE   FA#-   SI-   SOL  RE SOL    RE        LA7 RE
+popolo oppresso giustizia cantera. Alleluia, alleluia !`
+},
+
+{
+  id: "andate-per-le-strade",
+  title: "Andate per le strade",
+  categories: ["chiesa"],
+  liturgia: ["finale"],
+  tempo: [],
+  content: `FA#       SI-    RE    SOL    LA
+Andate per le strade in tutto il mondo
+  FA#       SI- LA       RE
+chiamate i miei amici per far festa
+  FA#       SOL       LA
+c'e un posto per ciascuno alla mia mensa
+
+SOL       LA        RE
+Nel vostro cammino annunciate il Vangelo
+SI-    MI-     FA#      SI-
+dicendo: "E' vicino il Regno dei cieli"
+RE7    SOL     LA       RE
+Guarite i malati, mondate i lebbrosi,
+SI-    FA#-    DO#7     FA#
+rendete la vita a chi l'ha perduta.
+
+SOL       LA        RE
+Vi e stato donato con amore gratuito,
+SI-    MI-     FA#      SI-
+ugualmente donate con gioia e per amore
+RE7    SOL     LA       RE
+Con voi non prendete n' oro n' argento,
+SI-    FA#-    DO#7     FA#
+perche l'operaio ha diritto al suo cibo
+
+SOL       LA        RE
+Entrando in una casa donatele la pace,
+SI-    MI-     FA#      SI-
+Se c'e chi rifiuta e non accetta il dono
+RE7    SOL     LA       RE
+la pace torni a voi e uscite dalla casa
+SI-    FA#-    DO#7     FA#
+scuotendo la polvere dai vostri calzari
+
+SOL              LA        RE
+Ecco, io vi mando agnelli in mezzo ai lupi:
+SI-       MI-     FA#      SI-
+siate dunque avveduti come sono i serpenti
+RE7    SOL     LA       RE
+ma liberi e chiari come le colombe:
+SI-    FA#-    DO#7     FA#
+dovrete sopportare prigioni e tribunali
+
+SOL              LA        RE
+Nessuno e piu grande del proprio maestro,
+SI-       MI-     FA#      SI-
+ne il servo e importante piu del suo padrone
+RE7    SOL     LA       RE
+Se hanno odiato me, odieranno anche voi,
+SI-    FA#-    DO#7     FA#
+ma voi non temete, io non vi lascio soli.`
+},
+
+{
+  id: "ave-maria",
+  title: "Ave Maria",
+  categories: ["chiesa", "mariano"],
+  liturgia: ["offertorio", "comunione"],
+  tempo: ["matrimonio"],
+  content: `intro: RE LA SI- SOL RE LA MI- SOL LA
+
+RE   LA    SI- SOL
+A    Ve Maria
+RE LA MI- SOL
+A  ve
+RE   LA    SI- SOL  RE  LA  RE4 RE
+A    Ve Maria       A   ve
+
+RE              SI-
+donna dell'attesa e madre di speranza
+LA      SOL
+ora pro nobis
+
+RE              SI-
+donna del sorriso e madre del silenzio
+LA      SOL
+ora pro nobis
+
+RE              LA
+donna di frontiera e madre dell'ardore
+SI-     SOL
+ora pro nobis
+
+RE              LA
+donna del riposo e madre del sentiero
+SOL      LA
+ora pro nobis
+
+RE   LA    SI- SOL
+A    Ve Maria
+RE LA MI- SOL
+A  ve
+RE   LA    SI- SOL  RE  LA  RE4 RE
+A    Ve Maria       A   ve
+
+RE                Si-
+donna del deserto e madre
+         LA         SOL
+del respiro  ora pro nobis
+
+RE               SI-
+donna della sera e madre
+         LA        SOL
+del ricordo  ora pro nobis
+
+RE              LA
+donna del presente e madre
+         SI-       SOL
+del ritorno  ora pro nobis
+
+RE              LA
+donna della terra e madre
+         SOL       LA
+dell'amore  ora pro nobis
+
+RE   LA    SI- SOL
+A    Ve Maria
+RE LA MI- SOL
+A  ve
+RE   LA    SI- SOL  RE  LA  RE4 RE
+A    Ve Maria       A   ve
+
+finale: RE4 RE`
+},
+
+{
+  id: "beatitudini",
+  title: "Beatitudini",
+  categories: ["chiesa"],
+  liturgia: ["comunione", "finale"],
+  tempo: [],
+  content: `DO        SOL       LA-         FA    SOL       DO
+Dove due o tre sono riuniti nel mio nome, io saro con loro,
+FA        SOL     MI     LA-        DO              FA
+preghero con loro, amero con loro perche il mondo creda a Te,
+SOL        DO          LA-      FA  SOL DO
+o Padre, conoscere il tuo amore avere, vita con Te.
+
+DO        SOL       LA-         FA    SOL       DO
+Voi che ora siete miei discepoli nel mondo, siate testimoni
+FA          SOL     MI      LA-       DO              FA
+di un amore immenso, date prova di quella speranza che c'e in voi,
+SOL        DO          LA-      FA     SOL DO
+coraggio, vi guidero per sempre, io rimango con voi.
+
+DO        SOL       LA-         FA    SOL       DO
+Ogni beatitudine vi attende nel mio nome, se sarete uniti,
+FA        SOL     MI     LA-        DO              FA
+se sarete pace, se sarete uniti perche voi vedrete Dio,
+SOL        DO          LA-      FA  SOL DO
+che e pace, in Lui la nostra vita gioia piena sara.
+
+RE        LA        SI-       SOL     LA        RE
+Spirito che animi la Chiesa e la rinnovi, donale fortezza,
+SOL        LA        FA#    SI-       RE              SOL
+fa' che sia fedele, come Cristo che muore e risorge perche il regno
+LA        RE        SI-       SOL LA RE
+del Padre si compia in mezzo a voi: abbiate fede in Lui.`
+},
+
+{
+  id: "benedici-o-signore",
+  title: "Benedici, o Signore",
+  categories: ["chiesa"],
+  liturgia: ["offertorio"],
+  tempo: [],
+  content: `intro: LA- SOL LA-
+
+LA-                          SOL                LA-
+Nebbia e freddo, giorni lunghi e mari mentre il seme muore
+DO                           SOL                FA7+
+Poi il prodigio, antico e sempre nuovo del primo filo d'erba.
+DO        SOL   LA-        RE-        SOL          MI LA
+E nel vento dell'estate ondeggiano le spighe: avremo ancora pane.
+
+RE   LA   RE   LA     SOL    RE          MI4          MI
+Benedici, o Signore, questa offerta che portiamo a te... portiamo a te
+RE   LA   FA#-  DO#-  SI7       RE          LA
+facci uno, come il pane che anche oggi hai dato a noi.
+
+LA-                    SOL          LA-
+Nei filari, dopo il lungo inverno, fremono le viti
+DO                     SOL                   FA7+
+La rugiada avvolge nel silenzio i primi tralci verdi
+DO        SOL    LA-        RE-        SOL          MI LA
+poi i colori dell'autunno coi grappoli maturi: avremo ancora vino.
+
+RE   LA   RE   LA     SOL    RE          MI4          MI
+Benedici, o Signore, questa offerta che portiamo a te... portiamo a te
+RE   LA   FA#-  DO#-  SI7       RE          LA
+facci uno, come il vino che anche oggi hai dato a noi.`
+},
+
+{
+  id: "camminero-mi-hai-chiamato",
+  title: "Camminero (mi hai chiamato)",
+  categories: ["chiesa", "scout"],
+  liturgia: ["finale"],
+  tempo: [],
+  content: `INTRO: solo SOL
+
+       DO              FA
+1. Mi hai chiamato dal nulla, Signore,
+       SOL7            DO
+e mi hai dato il dono della vita.
+Tu mi hai preso
+              FA
+e mi hai messo per strada
+       SOL7       DO
+e mi hai detto di camminar.
+
+Verso un mondo che non ha confini, no,
+    DO          SOL
+verso mete da raggiungere, ora mai...
+Verso il regno dell'amore
+  DO           SOL7
+che e sempre un po' piu in la.
+
+Rit.
+       FA              DO
+Camminero senza stancarmi
+       FA              DO
+e volero sui monti piu alti
+       FA
+e trovero la forza d'andare
+              FA
+sempre piu avanti
+    SOL7    DO       FA
+Si io camminero, camminero,
+       DO        FA
+con te vicino io non cadro
+       DO       SOL7    DO
+e camminero, camminero...
+
+       DO              FA
+2. In ogni istante ti sento vicino
+       SOL7            DO
+tu dai senso alle cose che faccio.
+La tua luce mi indica la strada
+       SOL7       DO
+e mi invita a camminar...
+
+Verso un mondo che non ha confini, no,
+    DO          SOL
+verso mete da raggiungere, ora mai...
+Verso il regno dell'amore
+  DO           SOL7
+che e sempre un po' piu in la.
+
+Rit.
+       FA              DO
+Camminero senza stancarmi
+       FA              DO
+e volero sui monti piu alti
+       FA
+e trovero la forza d'andare
+              FA
+sempre piu avanti
+    SOL7    DO       FA
+Si io camminero, camminero,
+       DO        FA
+con te vicino io non cadro
+       DO       SOL7    DO
+e camminero, camminero...
+
+USO: FINALE`
+},
+
+{
+  id: "camminero",
+  title: "Camminero",
+  categories: ["chiesa"],
+  liturgia: ["finale"],
+  tempo: [],
+  content: `INTRO: RE
+
+     RE         SI-
+Rit. Camminero, camminero
+     SOL              LA
+     sulla Tua strada, Signor.
+     RE              SI-
+     Dammi la mano, voglio restar
+       MI-  LA    RE
+     per sempre insieme a Te.
+
+RE               SI-
+Quando ero solo, solo e stanco del mondo,
+SOL              LA
+quando non c'era l'Amor,
+RE            SI-
+tante persone vidi intorno a me,
+MI-   LA    RE
+sentivo cantare cosi.
+
+Rit.
+     RE         SI-
+     Camminero, camminero
+     SOL              LA
+     sulla Tua strada, Signor.
+     RE              SI-
+     Dammi la mano, voglio restar
+       MI-  LA    RE
+     per sempre insieme a Te.
+
+RE         SI-
+Io non capivo ma rimasi a sentire
+SOL              LA
+quando il Signore mi parlo:
+RE            SI-
+Lui mi chiamava, chiamava anche me
+ MI- LA    RE
+e la mia risposta s'alzo.
+
+Rit.
+     RE         SI-
+     Camminero, camminero
+     SOL              LA
+     sulla Tua strada, Signor.
+     RE              SI-
+     Dammi la mano, voglio restar
+       MI-  LA    RE
+     per sempre insieme a Te.
+
+RE               SI-
+Or non importa se uno ride di me,
+SOL         LA
+lui certamente non sa
+RE               SI-
+del gran regalo che ebbi quel di
+  MI-   LA    RE
+che dissi al Signore cosi.
+
+Rit.
+     RE         SI-
+     Camminero, camminero
+     SOL              LA
+     sulla Tua strada, Signor.
+     RE              SI-
+     Dammi la mano, voglio restar
+       MI-  LA    RE
+     per sempre insieme a Te.
+
+RE                  SI-
+A volte sono triste, ma mi guardo intorno,
+SOL
+scopro il mondo e l'amor;
+RE               SI-
+son questi i doni che Lui fa a me
+ MI-  LA    RE
+felice ritorno a cantar.`
+},
+
+{
+  id: "canzone-di-luciano",
+  title: "Canzone di Luciano",
+  categories: ["chiesa"],
+  liturgia: ["offertorio"],
+  tempo: [],
+  content: `RE LA SOL LA RE (x2)
+
+     RE           LA          SOL       LA      RE    LA4
+Fa', Signore, che io riesca a consumare la mia vita per gli altri,
+     SOL     LA
+come Tu hai fatto per me.
+
+          SI-7       LA
+Rit: Che non debba mai dir di "no"
+     SOL        LA       RE  LA SOL  LA
+ma sempre un "si" con un sorriso sulle labbra.
+     SI-7       LA           SOL
+Fa' che il mio dir di "si" sia sempre per la gloria Tua,
+     SI-7    LA2    SOL   LA    RE  LA SOL  LA
+fa' che abbia sempre sete di Te, Signo---re-e.
+
+(La)     RE        LA     SOL  LA        RE    LA4    SOL LA
+2) Fa', Signore, che la Tua volonta sia sempre piu chiara  verso me.
+     RE     LA     SOL   LA      RE   LA4 SOL LA
+Che il mio cuore s'allarghi sempre piu all'Amore e    e.
+     RE        LA        SOL      LA      RE      LA4  SOL LA
+Fa', Signore, che io abbia sempre bisogno di Te,  in ogni istante.
+          SI-7       LA
+Rit: Che non debba mai dir di "no"
+     SOL        LA       RE  LA SOL  LA
+ma sempre un "si" con un sorriso sulle labbra.
+     SI-7       LA           SOL
+Fa' che il mio dir di "si" sia sempre per la gloria Tua,
+     SI-7    LA2    SOL   LA    RE  LA SOL  LA
+fa' che abbia sempre sete di Te, Signo---re-e.
+
+(La)     RE   LA    SOL      LA       RE      LA4  SOL
+3) Cosi che tu venga subito nell'aiutarmi a rialzare persone cadute,
+LA     RE      LA     SOL LA       RE     LA4    SOL
+a confortare persone in crisi,  a rasserenare cuori ansiosi,
+LA     RE      LA     SOL     LA       RE  LA4   SOL  LA
+a risanare malati morali, a sorridere a tutti con il Tuo Volto.
+          SI-7       LA
+Rit: Che non debba mai dir di "no"
+     SOL        LA       RE  LA SOL  LA
+ma sempre un "si" con un sorriso sulle labbra.
+     SI-7       LA           SOL
+Fa' che il mio dir di "si" sia sempre per la gloria Tua,
+     SI-7    LA2    SOL   LA    RE  LA SOL  LA
+fa' che abbia sempre sete di Te, Signo---re-e.
+
+(La)     RE      LA      SOL   LA    RE  LA4 SOL LA
+4) Fa', Signore, che il mio arrivo sia in Paradiso.
+     SI-7       LA
+Rit: Che non debba mai dir di "no"
+     SOL       LA        RE  LA SOL  LA
+ma sempre un "si" con un sorriso sulle labbra.
+     SI-7       LA           SOL
+Fa' che il mio dir di "si" sia sempre per la gloria Tua,
+     SI-7    LA2    SOL   LA         LA  RE  LA
+fa' che abbia sempre sete di Te, Signo---re-e.
+
+finale: SOL LA RE`
+},
+
+{
+  id: "chi",
+  title: "Chi",
+  categories: ["chiesa", "lode"],
+  liturgia: ["offertorio"],
+  tempo: [],
+  content: `DO
+Filtra un raggio di sole
+FA
+fra le nubi del cielo
+RE-
+strappa la terra al gelo
+DO       SOL
+e nasce un fiore.
+DO          FA        RE-
+E poi mille corolle rivestite di poesia
+         DO        SOL
+in un gioco di armonia e di colori.
+LA-              MI-7
+Ma chi veste i fiori del campo,
+     FA
+chi ad ognuno da colore?
+SOL
+Chi?
+
+DO
+Va col vento leggera
+FA
+una rondine in volo
+RE-
+il suo canto sa solo
+DO       SOL
+di primavera
+DO
+E poi intreccio di ali
+FA           RE-
+come giostra d'armonia
+         DO
+mille voli in fantasia
+     SOL
+fra terre e mari.
+LA-              MI-7
+Ma chi nutre gli uccelli del cielo,
+     FA
+chi ad ognuno da un nido?
+SOL
+Chi?
+
+LA
+Tu, creatore del mondo,
+DO#-          FA#-
+Tu, che possiedi la vita,
+RE      MI   LA    MI
+Tu, sole infinito, Dio amore.
+LA
+Tu, degli uomini il padre,
+DO#-          FA#-
+Tu, che abiti il cielo
+RE            MI
+Tu immenso mistero,
+LA     MI RE    MI   FA SOL
+Dio amore, Dio amore.
+
+DO
+Una immagine viva
+FA
+del creatore del mondo
+RE-
+un riflesso profondo
+DO       SOL
+della sua vita.
+DO
+L'uomo, centro del cosmo
+FA
+ha un cuore per amare
+RE-
+e un mondo da plasmare
+DO       SOL
+con le sue mani.
+LA-              MI-7
+Ma chi ha dato all'uomo la vita
+FA
+chi a lui ha dato un cuore?
+SOL
+Chi?
+
+LA
+Tu, creatore del mondo,
+DO#-          FA#-
+Tu, che possiedi la vita,
+RE      MI   LA    MI
+Tu, sole infinito, Dio amore.
+LA
+Tu, degli uomini il padre,
+DO#-          FA#-
+Tu, che abiti il cielo
+RE            MI
+Tu immenso mistero,
+LA     MI  RE   MI
+Dio amore, Dio amore.`
+},
+
+{
+  id: "ci-sara",
+  title: "Ci sara",
+  categories: ["chiesa", "scout"],
+  liturgia: [],
+  tempo: [],
+  content: `  LA
+Ci sara,
+  RE              LA
+Nel cielo una stella che si accende, ci sara.
+  DO#-
+Ci sara,
+  RE              LA
+Una luce che rischiari i miei passi, ci sara.
+  FA#-
+Ci sara,
+DO#--
+Un cammino, una luce, una stella nel cielo,
+RE    LA    4/4 DI STACCO LA RE X4
+Ci sara,
+
+LA             RE
+Volti, mille volti, mille cuori e mille mari,
+LA             RE
+Voci e passi che attraversano
+LA           FA#-  MI
+I sentieri del mondo.
+LA
+Strade che si animano,
+RE
+Vite che si svegliano,
+LA
+Gioia che divampa,
+RE              FA#-
+Festa che si appresta a scoppiare
+MI    FA#--  RE
+Cos'e, cos'e, e...
+
+FA#-          RE
+E' una luce che si accende,
+LA          RE
+E ti scalda l'anima.
+FA#-          RE      LA       RE
+E' il colore sulla tela,   che da forma e vita.
+LA             RE
+E' la fine di una corsa, la speranza che
+LA
+E una roccia, una certezza
+MI    FA#- RE  MI-   MI  7
+Tu, Dio, Di  o  tra noi.
+
+LA              MI
+Sei tu che brilli nel cielo,
+     FA#-
+La stella cometa,
+     RE
+Il centro della vita.
+LA              MI
+Tu l'universo infinito
+     RE
+Il sogno svelato.
+
+MI  FA#- RE  MI-  MI  7
+Tu, Dio, Di  o  tra noi.
+
+LA              MI
+Sei tu che brilli nel cielo,
+     FA#-
+La stella cometa,
+     RE
+Il centro della vita. Tu
+LA              MI
+l'universo infinito
+     RE
+Il sogno svelato.
+
+MI  FA#- RE  MI-  MI  7
+Tu, Dio, Di  o  tra noi.
+
+FINALE: LA           SOL
+Dio tra noi
+          LA
+Dio tra noi
+          SOL
+Dio tra noi
+          LA
+Dio tra noi
+          SOL
+Dio tra noi
+          LA
+Dio tra noi!`
+},
+
+{
+  id: "com-e-bello",
+  title: "Com'e bello",
+  categories: ["chiesa", "scout"],
+  liturgia: ["ingresso"],
+  tempo: [],
+  content: `LA-    RE-   LA-     MI
+Com'e bello, come da gioia
+LA-    RE-   LA- MI  LA-
+che i fratelli stiano insieme.
+
+LA-      SOL       FA     MI
+E come unguento che dal capo discenda
+LA-    RE-      MI
+giu sulla barba di Aronne.  (2. volte)
+
+Rit.
+LA-    RE-   LA-     MI
+Com'e bello, come da gioia
+LA-    RE-   LA- MI  LA-
+che i fratelli stiano insieme.
+
+LA-      SOL       FA     MI
+E come unguento che dal capo discenda
+LA-    RE-      MI
+giu sugli orli del manto. (2 volte)
+
+Rit.
+LA-    RE-   LA-     MI
+Com'e bello, come da gioia
+LA-    RE-   LA- MI  LA-
+che i fratelli stiano insieme.
+
+LA-      SOL       FA     MI
+Come rugiada che dall'Ermon discenda
+LA-    RE-      MI
+giu sui monti di Sion. (2 volte)
+
+Rit.
+LA-    RE-   LA-     MI
+Com'e bello, come da gioia
+LA-    RE-   LA- MI  LA-
+che i fratelli stiano insieme.
+
+LA-      SOL       FA     MI
+Li benedice il Signore dall'alto
+LA-    RE-      MI
+la vita gli dona in eterno. (2 volte)`
+},
+
+{
+  id: "come-fuoco-vivo",
+  title: "Come fuoco vivo",
+  categories: ["chiesa"],
+  liturgia: ["comunione"],
+  tempo: ["pasquale"],
+  content: `intro: DO RE- DO SOL LA- SOL FA DO
+
+          DO  SOL   LA-
+Come fuoco vivo si accende in noi
+     RE-     SOL DO DO7   FA
+un'immensa felicita che mai piu
+   SOL   DO FA RE-       SOL4 SOL
+nessuno ci togliera perche Tu sei ritornato.
+     DO  SOL   LA-
+Chi potra tacere da ora in poi
+     RE-     SOL    DO DO7   FA
+che sei Tu in cammino con noi, che la morte
+SOL   DO  FA RE-       SOL4 SOL
+e vinta per sempre che, ci hai ridonato la vita.
+
+LA-         FA   DO          SOL4 SOL SOL-  LA
+  Spezzi il pane davanti a noi, mentre il sole e al tramonto: ora gli occhi ti
+RE-  FA    SOL4 SOL
+vedono sei Tu! Resta con noi.
+
+          DO  SOL   LA-
+Come fuoco vivo si accende in noi
+     RE-     SOL DO DO7   FA
+un'immensa felicita che mai piu
+   SOL   DO FA RE-       SOL4 SOL
+nessuno ci togliera perche Tu sei ritornato.
+     DO  SOL   LA-
+Chi potra tacere da ora in poi
+     RE-     SOL    DO DO7   FA
+che sei Tu in cammino con noi, che la morte
+SOL   DO  FA RE-       SOL4 SOL
+e vinta per sempre che, ci hai ridonato la vita.
+
+LA-          FA   DO          SOL4 SOL SOL-    LA
+  E per sempre Ti mostrerai in quel gesto d'amore: mani che ancora
+RE-  FA    SOL4 SOL
+spezzano pane d'eternita.
+
+          DO  SOL   LA-
+Come fuoco vivo si accende in noi
+     RE-     SOL DO DO7   FA
+un'immensa felicita che mai piu
+   SOL   DO FA RE-       SOL4 SOL
+nessuno ci togliera perche Tu sei ritornato.
+     DO  SOL   LA-
+Chi potra tacere da ora in poi
+     RE-     SOL    DO DO7   FA
+che sei Tu in cammino con noi, che la morte
+SOL   DO  FA RE-       SOL4 SOL
+e vinta per sempre che, ci hai ridonato la vita.
+
+finale: DO RE- DO SOL LA- SOL FA DO`
+},
+
+{
+  id: "come-maria",
+  title: "Come Maria",
+  categories: ["chiesa", "mariano"],
+  liturgia: ["offertorio"],
+  tempo: [],
+  content: `LA-          DO    LA-              MI-
+Vogliamo vivere, Signore, offrendo a Te la nostra vita;
+FA                RE    LA-              MI
+con questo pane e questo vino accetta quello che noi siamo.
+LA-          DO    LA-              MI-
+Vogliamo vivere, Signore, abbandonati alla Tua voce,
+FA              RE    LA-         MI
+staccati dalle cose vane,fissati nella vita vera.
+
+     LA   RE    MI    FA#-
+Vogliamo vivere come Maria,
+     RE         MI
+l'irraggiungibile,
+     RE         MI
+la madre amata
+     RE          MI         DO#-
+che vince il mondo con l'Amore
+     RE       SI-        DO#-
+e offrire sempre la Tua vita
+          RE      LA
+     che viene dal cielo.
+
+LA-          DO    LA-              MI-
+Accetta dalle nostre mani come un'offerta a Te gradita,
+FA              RE    LA-              MI
+i desideri di ogni cuore le ansie della nostra vita.
+LA-          DO    LA-              MI-
+Vogliamo vivere Signore accesi dalle tue parole
+FA              RE    LA-                  MI
+per ricordare ad ogni uomo la fiamma viva del Tuo Amore.`
+},
+
+{
+  id: "come-ti-ama-dio",
+  title: "Come ti ama Dio",
+  categories: ["chiesa", "lode"],
+  liturgia: [],
+  tempo: [],
+  content: `RE  SI-  SOL7  LA
+
+     RE        SI-         SOL
+Io vorrei saperti amare come Dio
+LA          RE        SI-         SOL
+che ti prende per mano, ma ti lascia anche andare
+     LA          RE       SI-       SOL
+vorrei saperti amare senza farti mai domande
+     LA          RE       SI-   SOL   LA        RE
+felice perche esisti e cosi io posso darti il meglio di me.
+
+          RE     LA       SI-   SOL        RE
+Con la forza del mare l'eternita dei giorni,
+          LA        SI-   SOL        RE
+la gioia dei voli, la pace della sera,
+          LA      SI-   SOL        RE
+l'immensita del cielo, come ti ama Dio.
+
+     RE        SI-         SOL
+Io vorrei saperti amare come Dio
+LA          RE        SI-         SOL
+che ti conosce e ti accetta come sei
+     LA          RE       SI-       SOL
+tenerti tra le mani come i voli nell'azzurro
+     LA          RE       SI-   SOL   LA        RE
+felice perche esisti e cosi io posso darti il meglio di me.
+
+          RE     LA       SI-   SOL        RE
+Con la forza del mare l'eternita dei giorni,
+          LA        SI-   SOL        RE
+la gioia dei voli, la pace della sera,
+          LA      SI-   SOL        RE
+l'immensita del cielo, come ti ama Dio.
+
+     RE        SI-         SOL
+Io vorrei saperti amare come Dio
+LA          RE        SI-         SOL
+che ti fa migliore con l'amore che ti dona
+     LA          RE       SI-       SOL
+seguirti tra la gente con la gioia che hai dentro
+     LA          RE       SI-   SOL   LA        RE
+felice perche esisti e cosi io posso darti il meglio di me.
+
+          RE     LA       SI-   SOL        RE
+Con la forza del mare l'eternita dei giorni,
+          LA        SI-   SOL        RE
+la gioia dei voli, la pace della sera,
+          LA      SI-   SOL        RE
+l'immensita del cielo, come ti ama Dio.
+
+          MI     SI       DO#-   LA        MI
+Con la forza del mare l'eternita dei giorni,
+          SI        DO#-   LA        MI
+la gioia dei voli, la pace della sera,
+          SI      DO#-   LA        MI
+l'immensita del cielo, come ti ama Dio.`
+},
+
+{
+  id: "cristo-e-risorto-veramente",
+  title: "Cristo e risorto veramente",
+  categories: ["chiesa"],
+  liturgia: ["ingresso", "finale"],
+  tempo: ["pasquale"],
+  content: `Fa          Do      Fa
+Cristo e risorto veramente alleluia!
+Fa     Do           Re-       Do
+Gesu, il vivente, qui con noi  restera.
+Re-       Sib     Fa        Sib
+Cristo Gesu,    Cristo Gesu
+Fa/do   Do        Sib  Fa
+E il signore della vi - ta.
+
+Fa       Sib       Fa
+Morte, dov'e   la tua vittoria?
+  La-    Re-      Do4 Do
+Paura non mi puoi far piu.
+Sib         Do/mi  Fa  Do/mi   Re-
+sulla croce io moriro insie-me a lui,
+Sib              Fa
+poi insieme a lui  risorgero.
+
+Rit.
+Fa          Do      Fa
+Cristo e risorto veramente alleluia!
+Fa     Do           Re-       Do
+Gesu, il vivente, qui con noi  restera.
+Re-       Sib     Fa        Sib
+Cristo Gesu,    Cristo Gesu
+Fa/do   Do        Sib  Fa
+E il signore della vi - ta.
+
+Tu, Signore amante della vita,
+mi hai creato per l'eternita.
+La vita mia tu dal sepolcro strapperai,
+con questo mio corpo ti vedro.
+
+Rit.
+Fa          Do      Fa
+Cristo e risorto veramente alleluia!
+Fa     Do           Re-       Do
+Gesu, il vivente, qui con noi  restera.
+Re-       Sib     Fa        Sib
+Cristo Gesu,    Cristo Gesu
+Fa/do   Do        Sib  Fa
+E il signore della vi - ta.
+
+Tu mi hai donato la tua vita,
+io voglio donar la mia a te.
+Fa' che possa dire "Cristo vive anche in me" E
+quel giorno io risorgero.
+
+Sol          Re          Sol       Re
+Cristo e risorto veramente alleluia!
+Sol    Re             Mi-       Re
+Gesu, il vivente, qui con noi  restera.
+Cristo Gesu, Cristo Gesu
+E il signore della vi - ta`
+},
+
+{
+  id: "dall-aurora-al-tramonto",
+  title: "Dall'aurora al tramonto",
+  categories: ["chiesa", "lode"],
+  liturgia: ["ingresso"],
+  tempo: [],
+  content: `INTRO: DO#- LA SI (3V)
+
+DO#-  MI    FA#-   SI
+Dall'aurora io cerco Te
+DO#-  MI    FA#-   SI
+fino al tramonto ti chiamo.
+  DO#-  SOL#-  LA
+Ha sete solo di Te
+SI     DO#-   SOL#- LA   SI
+l'anima mia come terra deserta.
+
+DO#-  MI    FA#-   SI
+Non mi fermero un solo istante,
+DO#-  MI  FA#- SI
+sempre cantero la tua lode,
+DO#-        SOL#
+perche sei il mio Dio,
+LA    SI    DO#-    SOL#
+il mio riparo, mi proteggerai
+LA             SI4 SI
+all'ombra delle tue ali.
+
+DO#-  MI    FA#-   SI
+Non mi fermero un solo istante,
+DO#-  MI  FA#- SI
+io raccontero Le Tue opere,
+DO#-        SOL#
+perche sei il mio Dio,
+LA    SI    DO#-    SOL#
+unico bene, nulla mai potra
+LA             SI4 SI
+la notte contro di me.
+
+  DO#- MI FA#- SI
+Dall'aurora io cerco Te
+DO#- MI FA#- SI
+fino al tramonto ti chiamo.
+  DO#- SOL#- LA
+Ha sete solo di Te
+SI DO#-  SOL#- LA SI                 MI
+l'anima mia come terra deserta.`
+},
+
+{
+  id: "danza-la-vita",
+  title: "Danza la vita",
+  categories: ["scout"],
+  liturgia: [],
+  tempo: [],
+  content: `DO       FA       DO  FA
+Canta con la voce e con il cuore,
+DO       FA       DO  FA
+con la bocca e con la vita,
+DO    FA    DO  FA
+canta senza stonature,
+DO FA  DO  FA
+la verita...del cuore.
+DO    FA    DO       FA
+Canta come cantano i viandanti: (canta come cantano i viandanti)
+DO    FA        DO FA
+Non solo per riempire il tempo, (non solo per riempire il tempo)
+DO       FA       DO FA
+Ma per sostenere lo sforzo. (ma per sostenere lo sforzo)
+DO FA  DO FA
+Canta e cammina (2 volte)
+
+    SOL            LA-
+Se poi, credi non possa bastare,
+       RE
+segui il tempo
+    FA SOL
+stai pronto e...
+
+    DO    FA   SOL    DO
+Rit: Danza la vita al ritmo dello spirito oh
+         Spirito che riempi i nostri
+    LA-  FA   SOL     DO
+Danza, danza al ritmo che c'e in te
+cuor. Danza assieme a noi
+
+DO       FA       DO FA
+Cammina sulle orme del Signore
+DO       FA       DO FA
+Non solo con i piedi ma
+DO    FA     DO FA
+Usa soprattutto il cuore
+DO       FA       DO FA
+Ama... chi e con te.
+DO          FA       DO FA
+Cammina con lo zaino sulle spalle: (cammina con lo zaino sulle spalle)
+DO    FA        DO FA
+La fatica aiuta a crescere (la fatica aiuta a crescere)
+DO    FA        DO FA
+Nella condivisione (nella condivisione)
+DO    FA    DO FA
+Canta e cammina (2 volte)
+
+                 SOL            LA-
+Se poi, credi non possa bastare,
+       RE
+segui il tempo
+    FA SOL
+stai pronto e...
+
+    DO    FA   SOL    DO
+Rit: Danza la vita al ritmo dello spirito oh
+         Spirito che riempi i nostri
+    LA-  FA   SOL     DO
+Danza, danza al ritmo che c'e in te
+cuor. Danza assieme a noi`
+},
+
+{
+  id: "dolce-sentire",
+  title: "Dolce sentire",
+  categories: ["chiesa", "francescano"],
+  liturgia: ["comunione", "offertorio"],
+  tempo: [],
+  content: `DO      MI-    FA    SOL    MI-
+Dolce sentire come nel mio cuore,
+LA- SOL  MI-  LA-   RE-     RE7     SOL
+ora  umilmente  sta nascendo amore.
+DO      MI-    FA      SOL    MI-
+Dolce capire che non son piu solo,
+LA- SOL MI-  LA-   RE-   RE7  SOL DO MI-
+ma che son parte di una immensa vita
+LA-   DO FA    FA-    SOL    DO MI-
+che generosa risplende intorno a me:
+LA-   DO FA    FA-    SOL    DO MI-
+dono di Lui, del suo immenso amor.
+
+DO      MI-    FA  SOL    MI-
+Ci ha dato il cielo e le chiare stelle,
+LA- SOL   MI- LA- RE-  RE7 SOL
+fratello sole e sorella luna;
+DO      MI-    FA       SOL    MI-
+la madre terra con frutti prati e fiori,
+LA-  SOL MI- LA-   RE-    RE7    SOL
+il fuoco, il vento, l'aria e l'acqua pura
+LA-  SOL MI- LA- RE-  SOL7   DO MI-
+fonte  di vita per le sue creature:
+LA-   DO FA    FA-    SOL    DO MI-
+dono di Lui, del suo immenso amore,
+LA-   DO FA    FA-    SOL    DO MI-
+dono di Lui, del suo immenso amore.
+
+DO      MI-    FA  SOL    MI-
+Sia laudato nostro Signore,
+LA-  SOL MI-  LA-   RE-    RE7   SOL
+che ha  creato l'universo intero;
+DO      MI-    FA   SOL    MI-
+Sia laudato nostro Signore,
+LA-  SOL MI-  LA-   RE-  RE7   SOL
+noi tutti  siamo sue creature
+LA-   DO FA    FA-    SOL7    DO MI-
+dono  di Lui, del suo immenso amore,
+LA-   DO FA    FA-    SOL    DO
+beato  chi, lo serve in umilta.`
+},
+
+{
+  id: "dove-troveremo-tutto-il-pane",
+  title: "Dove troveremo tutto il pane?",
+  categories: ["chiesa", "scout"],
+  liturgia: ["offertorio"],
+  tempo: [],
+  content: `Re Sol La
+RIT. Dove troveremo tutto il pane
+Re Sol La
+per sfamare tanta gente?
+Re Sol La
+Dove troveremo tutto il pane,
+Re La Re
+se non abbiamo niente.
+
+Re Mim La
+Io possiedo solo cinque pani,
+Re Sol La
+io possiedo solo due pesci,
+Re Sol La
+io possiedo un soldo soltanto,
+Re La Re
+io non possiedo niente.
+
+Rit.
+Re Sol La
+Dove troveremo tutto il pane
+Re Sol La
+per sfamare tanta gente?
+Re Sol La
+Dove troveremo tutto il pane,
+Re La Re
+se non abbiamo niente.
+
+Io so suonare la chitarra,
+io so dipingere e fare poesie,
+io so scrivere e penso molto,
+io non so fare niente.
+
+Rit.
+Re Sol La
+Dove troveremo tutto il pane
+Re Sol La
+per sfamare tanta gente?
+Re Sol La
+Dove troveremo tutto il pane,
+Re La Re
+se non abbiamo niente.
+
+Io sono un tipo molto bello,
+io sono molto intelligente,
+io sono molto furbo,
+io non sono niente.
+
+Rit.
+Re Sol La
+Dove troveremo tutto il pane
+Re Sol La
+per sfamare tanta gente?
+Re Sol La
+Dove troveremo tutto il pane,
+Re La Re
+se non abbiamo niente.
+
+(Con gli accordi del RIT.)
+Dio ci ha dato tutto il pane,
+per sfamare tanta gente,
+Dio ci ha dato tutto il pane,
+anche se non abbiamo niente!`
+},
+
+{
+  id: "e-bello-lodarti",
+  title: "E' bello lodarti",
+  categories: ["chiesa", "lode"],
+  liturgia: ["ingresso", "finale"],
+  tempo: [],
+  content: `SOL RE    DO       SOL
+E' bello cantare il tuo amore,
+LA-     RE4    RE
+e bello lodare il tuo nome.
+SOL SI   DO      LA-
+E bello cantare il tuo amore,
+  SOL    RE    DO
+e bello lodarti ,Signore ,
+  SOL    RE   DO
+e bello cantare a Te!
+
+MI-              SI-
+Tu che sei l'amore infinito
+         DO
+Che neppure il cielo puo contenere
+   LA-          RE
+Ti sei fatto uomo , tu sei venuto qui
+    SI7            DO
+Ad abitare in mezzo a noi, e allora....
+
+SOL RE    DO       SOL
+E' bello cantare il tuo amore,
+LA-     RE4    RE
+e bello lodare il tuo nome.
+SOL SI   DO      LA-
+E bello cantare il tuo amore,
+  SOL    RE    DO
+e bello lodarti ,Signore
+  SOL    RE    DO
+e bello cantare a Te!
+
+MI-              SI-
+Tu che conti tutte le stelle
+         DO
+E le chiami ad una ad una per nome,
+   LA-          RE
+da mille sentieri ci hai radunati qui,
+    SI7            DO
+ci hai chiamati figli tuoi , allora....
+
+SOL RE    DO       SOL
+E' bello cantare il tuo amore,
+LA-     RE4    RE
+e bello lodare il tuo nome.
+SOL SI   DO      LA-
+E bello cantare il tuo amore,
+  SOL    RE    DO
+e bello lodarti ,Signore
+  SOL    RE    DO
+e bello cantare a Te!
+
+FINALE: DO RE SOL`
+},
+
+{
+  id: "e-la-strada-si-apre",
+  title: "E la strada si apre",
+  categories: ["scout"],
+  liturgia: [],
+  tempo: [],
+  content: `mi- re sol re mi- (2 v.)
+
+mi-       re      sol      re   mi-    re sol re
+Raggio che buca le nubi ed e gia cielo aperto
+mi-       re      sol      re      fa
+acqua che scende decisa scavando da se
+  mi       la-      sol      re
+l'argine per la vita, la traiettoria di un volo che
+mi-      re        do
+sull'orizzonte di sera
+la-     si-    do         re mi- re sol re
+tutto di questa natura ha una strada per se.
+
+mi-       re      sol      re   mi-    re sol re
+Attimo che segue attimo un salto nel tempo
+mi-       re      sol      re      fa
+passi di un mondo che tende oramai all'unita
+         mi       la-      sol      re
+che non e piu domani, usiamo allora queste mani
+mi-      re        do
+scaviamo a fondo nel cuore
+la-     si-    do         re
+solo scegliendo l'amore il mondo vedra...
+
+                    sol
+Che la strada si apre
+     re        do     re
+passo dopo passo
+sol    re           la-
+ora su questa strada noi.
+si7              mi-
+E si spalanca un cielo
+         re       do
+un mondo che rinasce
+     mi-  do    re
+si puo vivere per l'unita.
+
+                    sol
+Che la strada si apre
+     re        do     re
+passo dopo passo
+sol    re           la-
+ora su questa strada noi.
+si7              mi-
+E si spalanca un cielo
+         re       do
+un mondo che rinasce
+     mi-  do    re
+si puo vivere per l'unita.
+
+Nave che segue una rotta in mezzo alle onde
+uomo che s'apre la strada in una giungla di idee
+seguendo sempre il sole,
+quando si sente assetato
+deve raggiungere l'acqua
+sabbia che nella risacca ritorna al mare.
+
+Usiamo allora queste mani
+scaviamo a fondo nel cuore
+solo scegliendo l'amore il mondo vedra...
+
+                    sol
+Che la strada si apre
+     re        do     re
+passo dopo passo
+sol    re           la-
+ora su questa strada noi.
+si7              mi-
+E si spalanca un cielo
+         re       do
+un mondo che rinasce
+     mi-  do    re
+si puo vivere per l'unita.`
+},
+
+{
+  id: "e-l-ora-dell-addio",
+  title: "E' l'ora dell'addio",
+  categories: ["scout"],
+  liturgia: [],
+  tempo: [],
+  content: `  RE    SI-     MI-     LA7
+E l'ora dell'addio, fratelli,
+  RE       RE7     SOL
+e l'ora di partir
+  RE    SI-     MI-     LA7
+il canto si fa triste, e ver
+  RE      SOL   LA7  RE
+Partir e un po morir.
+
+Rit.
+     RE         SI-     MI-      SOL
+Ma noi ci rivedremo ancor
+     RE       RE7      SOL
+ci rivedremo un di
+     RE    SI-    MI-      LA7
+arrivederci allor, fratelli,
+     RE  SOL  LA7  RE
+arrivederci si.
+
+RE         SI-     MI-
+Formiamo una catena
+LA7     RE     RE7     SOL
+con le mani nelle mani
+  RE       SI-     MI-
+stringiamoci l'un l'altro
+  LA-   RE  SOL   LA7 RE
+prima di tornar lontan.
+
+Rit.
+     RE         SI-     MI-      SOL
+Ma noi ci rivedremo ancor
+     RE       RE7      SOL
+ci rivedremo un di
+     RE    SI-    MI-      LA7
+arrivederci allor, fratelli,
+     RE  SOL  LA7  RE
+arrivederci si.
+
+  RE      SI-     MI-     LA7
+Iddio che tutto vede e sa
+  RE       RE7     SOL
+La speme d'ogni cuor
+  RE      SI-     MI-     LA7
+Se un di ci ha riuniti qui
+  RE      SOL   LA7 RE
+Sapra riunirci ancor.
+
+Rit.
+     RE         SI-     MI-      SOL
+Ma noi ci rivedremo ancor
+     RE       RE7      SOL
+ci rivedremo un di
+     RE    SI-    MI-      LA7
+arrivederci allor, fratelli,
+     RE  SOL  LA7  RE
+arrivederci si.`
+},
+
+{
+  id: "e-segni-nuovi",
+  title: "E segni nuovi",
+  categories: ["scout"],
+  liturgia: [],
+  tempo: [],
+  content: `intro: LA SI MI (x2)
+
+     MI         LA    SI     MI
+E segni nuovi oggi nascono gia
+              LA    SI    DO#-
+e c'e piu sole nelle nostre citta il mondo unito
+     LA    SI    MI
+splende qui fra di noi
+              LA    SI    DO#-
+e un ideale che la storia fara
+     SI    MI      LA
+un ideale che storia si fa. (2v)
+
+DO#-
+Vedo cambiare le cose
+     LA
+che stanno attorno
+DO#-
+crollare muri e barriere
+     LA
+fin dal profondo
+     SI7          MI
+e la gente che vive la vita.
+          DO#-   LA    SI
+Vedo in alto un cielo chiaro.
+
+Rit.
+     MI         LA    SI     MI
+E segni nuovi oggi nascono gia
+              LA    SI    DO#-
+e c'e piu sole nelle nostre citta il mondo unito
+     LA    SI    MI
+splende qui fra di noi
+              LA    SI    DO#-
+e un ideale che la storia fara
+     SI    MI      LA
+un ideale che storia si fa. (2v)
+
+DO#-
+Ormai non e cosi strano
+     LA
+sentir parlare
+DO#-
+di una "casa comune",
+     LA
+dove abitare,
+     SI7          MI
+e l'amore fra noi lo fara.
+          DO#-   LA    SI
+Invadendo il mondo intero.
+
+Rit.
+     MI         LA    SI     MI
+E segni nuovi oggi nascono gia
+              LA    SI    DO#-
+e c'e piu sole nelle nostre citta il mondo unito
+     LA    SI    MI
+splende qui fra di noi
+              LA    SI    DO#-
+e un ideale che la storia fara
+     SI    MI      LA
+un ideale che storia si fa. (2v)`
+},
+
+{
+  id: "e-volare-volare",
+  title: "E volare volare",
+  categories: ["chiesa", "francescano"],
+  liturgia: ["finale"],
+  tempo: [],
+  content: `RE          RE7+       SOL  LA
+E il sole usci color cinese,
+RE          RE7+          SOL LA
+e il suo ventaglio al cielo apri.
+RE          RE7+       SOL  LA
+E in quel fantastico paese,
+RE          RE7+          SOL LA RE
+Francesco dentro un quadro di naif.
+
+RE          RE7+       SOL  LA
+E tutto il cielo e sceso in terra,
+RE          RE7+          SOL LA
+e uccelli a frotte ai piedi miei.
+RE          RE7+       SOL  LA
+Buongiorno piccoli fratelli,
+RE       RE7+      SOL LA RE
+felicita della tribu di Dio.
+
+RE          RE7+          SOL        LA           RE
+E volare volare volare volare. Noi siamo l'allegria.
+RE          RE7+       SOL        LA           RE
+E volare volare volare volare. Leggero il cuore sia.
+RE          RE7+       SOL        LA              RE RE7+ SOL LA
+E volare volare volare volare. Chi ha piume volera.
+
+     RE          RE7+       SOL LA
+Na na naeu nane na na.
+     RE          RE7+       SOL LA
+Na na naeu nane na na.
+
+     RE          RE7+       SOL  LA
+E come a tanti fraticelli,
+     RE          RE7+       SOL LA
+a gufi a passeri parlo.
+     RE          RE7+       SOL  LA
+Attraversate monti e valli,
+     RE          RE7+       SOL  LA RE
+e dite al mondo quello che diro.
+
+Rit.
+RE          RE7+          SOL        LA           RE
+E volare volare volare volare. Noi siamo l'allegria.
+RE          RE7+       SOL        LA           RE
+E volare volare volare volare. Leggero il cuore sia.
+RE          RE7+       SOL        LA              RE RE7+ SOL LA
+E volare volare volare volare. Chi ha piume volera.`
+},
+
+{
+  id: "ecco-il-nostro-si",
+  title: "Ecco il nostro si",
+  categories: ["chiesa", "mariano"],
+  liturgia: ["offertorio"],
+  tempo: [],
+  content: `MI        SOL#-      LA        SI DO#-
+Fra tutte le donne scelta in Nazareth
+          LA   FA#-             SI        MI
+sul tuo volto risplende il coraggio di quando hai detto "Si".
+          SOL#-      LA        SI DO#-
+Insegna a questo cuore l'umilta
+          LA  FA#-                SI
+il silenzio d'Amore, la speranza nel Figlio tuo Gesu.
+
+     MI        FA#-       LA          SI
+Ecco il nostro Si, nuova luce che rischiara il giorno
+DO#-    LA      FA#-          SI
+e bellissimo regalare al mondo la speranza
+     MI        FA#-       LA          SI
+Ecco il nostro Si, camminiamo insieme a te Maria
+DO#-      LA      FA#-          SI
+madre di Gesu, madre dell'umanita...
+
+MI        SOL#-      LA        SI DO#-
+Nella tua casa il verbo si rivelo
+          LA   FA#-             SI            MI
+nel segreto del cuore il respiro del figlio Emmanuel.
+          SOL#-      LA        SI DO#-
+Insegna a queste mani la fedelta
+          LA  FA#-                SI
+a costruire la pace, una casa comune insieme a te.
+
+Rit.
+     MI        FA#-       LA          SI
+Ecco il nostro Si, nuova luce che rischiara il giorno
+DO#-    LA      FA#-          SI
+e bellissimo regalare al mondo la speranza
+     MI        FA#-       LA          SI
+Ecco il nostro Si, camminiamo insieme a te Maria
+DO#-      LA      FA#-          SI
+madre di Gesu, madre dell'umanita.
+
+MI        SOL#-      LA        SI DO#-
+Donna dei nostri giorni sostienici
+          LA   FA#-             SI            MI
+guida il nostro cammino, con la forza di quando hai detto Si.
+          SOL#-      LA        SI DO#-
+Insegnaci ad accogliere Gesu,
+          LA  FA#-                SI              MI
+noi saremo dimora, la piu bella poesia dell'anima.
+
+Rit.
+     MI        FA#-       LA          SI
+Ecco il nostro Si, nuova luce che rischiara il giorno
+DO#-    LA      FA#-          SI
+e bellissimo regalare al mondo la speranza
+     MI        FA#-       LA          SI
+Ecco il nostro Si, camminiamo insieme a te Maria
+DO#-      LA      FA#-          SI
+madre di Gesu, madre dell'umanita.`
+},
+
+{
+  id: "ecco-quel-che-abbiamo",
+  title: "Ecco quel che abbiamo",
+  categories: ["chiesa"],
+  liturgia: ["offertorio"],
+  tempo: [],
+  content: `LA
+Ecco quel che abbiamo,
+     RE        LA
+nulla ci appartiene, ormai.
+     FA#-     DO#-
+Ecco i frutti della terra,
+     RE        MI
+che Tu moltiplicherai.
+LA             LA7+
+Ecco queste mani,
+     RE        LA
+puoi usarle, se lo vuoi,
+     FA#-     DO#-
+per dividere nel mondo il pane
+RE    MI       LA
+che Tu hai dato a noi.
+
+LA
+Sulle strade, il vento
+     RE        LA
+da lontano portera
+     FA#-     DO#-
+il profumo del frumento,
+     RE        MI
+che tutti avvolgera.
+LA             LA7+
+E sara l'amore
+          RE        LA
+che il raccolto spartira
+     FA#-     DO#-
+e il miracolo del pane in terra
+RE  MI  LA
+si ripetera.
+
+     FA#-              DO#-
+Solo una goccia hai messo fra le mani mie,
+     LA7             FA#-        SI-
+solo una goccia che tu ora chiedi a me,
+     SI-              RE7+
+una goccia che in mano a te,
+     SI-       DO#-      RE       LA
+una pioggia diventera e la terra fecondera.
+
+     FA#-              DO#-
+Le nostre gocce pioggia fra le mani Tue
+     LA7             FA#-        SI-
+Saranno linfa di una nuova civilta.
+     SI-           RE  SI-        DO#-
+E la terra preparera la festa del pane che
+          RE        LA
+ogni uomo condividera`
+},
+
+{
+  id: "francesco-vai",
+  title: "Francesco vai",
+  categories: ["chiesa", "francescano"],
+  liturgia: ["finale"],
+  tempo: [],
+  content: `  MIm                RE      MIm
+Quello che io vivo non mi basta piu
+                        RE      MIm
+tutto quel che avevo non mi serve piu:
+     SI             MIm        DO
+io cerchero quello che davvero vale
+          LAm          DO       SI
+e non piu il servo, ma il padrone serviro.
+
+     MIm    RE       MIm
+Rit. Francesco vai, ripara la mia casa!
+     RE      MIm     RE            SOL
+Francesco vai, non vedi che e in rovina?
+     LAm
+E non temere:
+DO            SOL   SI      MIm
+io saro con te dovunque andrai
+     RE     MIm DO    RE      MIm
+Francesco vai!  Francesco vai!
+
+Nel buio e nel silenzio ti ho cercato, o Dio
+dal fondo della notte ho alzato il grido mio
+e gridero, finche non avro risposta
+per conoscere la tua volonta.
+
+Altissimo Signore, cosa vuoi da me?
+Tutto quel che avevo l'ho donato a Te.
+Ti seguiro nella gioia e nel dolore,
+e della vita mia una lode a Te faro.
+
+Quello che cercavo l'ho trovato qui:
+ma ho riscoperto nel mio dirti si
+la liberta, di essere figlio tuo,
+fratello sposo di madonna poverta.`
+},
+
+{
+  id: "frutto-della-nostra-terra",
+  title: "Frutto della nostra terra",
+  categories: ["chiesa"],
+  liturgia: ["offertorio"],
+  tempo: [],
+  content: `Sol          Do     Sol              Re
+Frutto della nostra terra, del lavoro di ogni uomo
+Mi-       Si-       Do           Re
+Pane della nostra vita, cibo della quotidianita.
+
+Sol             Do    Sol            Re
+Tu che lo prendevi un giorno, lo spezzavi per i tuoi
+Mi-       Si-       Do           Re4
+Oggi vieni in questo pane, cibo vero dell'umanita.
+
+     Re      Sol     Re      Mi-        Si-
+E saro pane e saro vino nella mia vita, nella tue mani
+          Do       Re     Mi-       Do
+Ti accogliero dentro di me, faro di me un'offerta viva
+          La-  Re        Sol Re
+Un sacrificio  gradito a Te.
+
+Sol          Do     Sol              Re
+Frutto della nostra terra, del lavoro di ogni uomo
+Mi-       Si-       Do           Re
+Vino delle nostre vigne sulla mensa dei fratelli tuoi.
+
+Sol             Do    Sol            Re
+Tu che lo prendevi un giorno, lo bevevi con i tuoi
+Mi-       Si-       Do           Re4
+Oggi vieni in questo vino e ti doni per la vita mia.
+
+     Re      Sol     Re      Mi-        Si-
+E saro pane e saro vino nella mia vita, nella tue mani
+          Do       Re     Mi-       Do
+Ti accogliero dentro di me, faro di me un'offerta viva
+          La-  Re        Mi- Re
+Un sacrificio  gradito a Te.
+Re   Do  La- Re     Sol Sol4 Sol Sol4 Sol
+Un sacrificio  gradito a te`
+},
+
+{
+  id: "giovane-donna",
+  title: "Giovane donna",
+  categories: ["chiesa", "mariano"],
+  liturgia: [],
+  tempo: ["natale"],
+  content: `RE      MI-     SOL           RE
+Giovane donna attesa dell'umanita
+RE      MI-     SOL           RE
+un desiderio d'amore e pura liberta.
+          FA#-    SOL          LA
+Il Dio lontano e qui vicino a Te,
+RE       FA#-     SOL          LA
+voce e silenzio, annuncio di novita.
+
+  RE FA# SI-  SOL SOL-6 RE  RE FA# SI-   SOL  SOL-6 RE
+A a ve Mari    i   a! A a ve Mari    i   a!
+
+RE      MI-     SOL           RE
+Dio t'ha prescelta qual madre piena di bellezza
+RE      MI-     SOL                   RE
+ed il suo amore t'avvolgera con la sua ombra.
+          FA#-    SOL          LA
+Grembo di Dio venuto sulla terra,
+RE       FA#-     SOL          LA
+tu sarai madre di un uomo nuovo.
+
+  RE FA# SI-  SOL SOL-6 RE  RE FA# SI-   SOL  SOL-6 RE
+A a ve Mari    i   a! A a ve Mari    i   a!
+
+RE      MI-     SOL           RE
+Ecco l'ancella che vive della tua parola,
+RE      MI-     SOL           RE
+libero il cuore perche l'amore trovi casa.
+          FA#-    SOL          LA
+Ora l'attesa e densa di preghiera
+RE       FA#-     SOL          LA
+e l'uomo nuovo e qui in mezzo a noi.
+
+  RE FA# SI-  SOL SOL-6 RE  RE FA# SI-   SOL  SOL-6 RE
+A a ve Mari    i   a! A a ve Mari    i   a!`
+},
+
+{
+  id: "grandi-cose",
+  title: "Grandi cose",
+  categories: ["chiesa", "lode"],
+  liturgia: ["ingresso", "finale"],
+  tempo: [],
+  content: `intro: RE LA MI- SI RE SOL RE LA4 LA
+
+  RE     LA      MI-    SI-
+Grandi cose ha fatto  il Signore per noi,
+  RE      SOL      RE       LA4  LA
+ha fatto germogliare fiori fra le rocce.
+
+  RE     LA      MI-    SI-
+Grandi cose ha fatto  il Signore per noi,
+  RE      SOL      RE       LA4  LA
+ci ha riportati liberi alla nostra terra.
+
+     SI-              MI-7            FA#-7
+Ed ora possiamo cantare, possiamo gridare
+          SOL               LA4 LA
+l'amore che Dio ha versato su noi.
+
+  RE      LA     MI-      SI-
+Tu che sai strappare dalla morte,
+  RE        SOL        RE       LA4    LA
+hai sollevato il nostro viso dalla polvere.
+
+  RE      LA     MI-      SI-
+Tu che hai sentito il nostro pianto,
+  RE        SOL        RE       LA4    LA
+nel nostro cuore hai messo, un seme di felicita.
+
+  RE     LA         MI-    SI-
+Grandi cose ha fatto  il Signore per noi,
+  RE      SOL      RE       LA4  LA
+ha fatto germogliare fiori fra le rocce.
+
+  RE     LA         MI-    SI-
+Grandi cose ha fatto  il Signore per noi,
+  RE      SOL      RE       LA4  LA
+ci ha riportati liberi alla nostra terra.
+
+     SI-              MI-7            FA#-7
+Ed ora possiamo cantare, possiamo gridare
+          SOL               LA4 LA
+l'amore che Dio ha versato su noi.`
+},
+
+{
+  id: "i-cieli-narrano",
+  title: "I cieli narrano",
+  categories: ["chiesa", "lode"],
+  liturgia: ["ingresso"],
+  tempo: [],
+  content: `Intro: La- Re Sol7
+
+  Do  Fa    Do  Sol    La-  Fa       Do   Sol
+Rit. I cieli narrano la gloria di Dio  e il firmamento annunzia l'opera sua.
+
+  La- Fa  Sol Do  La- Fa   Re-7 Sol Do
+Alleluia,  alleluia,  allelu - u - ia.
+
+  Do   Fa   Do   Sol    La-    Fa      Do  Sol
+Il giorno al giorno ne affida il messaggio,  la notte alla notte ne trasmette notizia.
+
+  La-  Fa    Sol  Do   La-    Re7  Sol7
+Non e linguaggio, non sono parole   di cui non si oda il suono.
+
+Rit.
+  Do  Fa    Do  Sol    La-  Fa       Do   Sol
+I cieli narrano la gloria di Dio  e il firmamento annunzia l'opera sua.
+
+  La- Fa  Sol Do  La- Fa   Re-7 Sol Do
+Alleluia,  alleluia,  allelu - u - ia.
+
+  Do  Fa   Do   Sol   La-  Fa       Do  Sol
+La pose una tenda per il sole che sorge,  e come uno sposo dalla stanza nuziale,
+
+  La- Fa    Sol  Do   La-    Re7  Sol7
+esulta come un prode che corre  con gioia la sua strada.
+
+Rit.
+  Do  Fa    Do  Sol    La-  Fa       Do   Sol
+I cieli narrano la gloria di Dio  e il firmamento annunzia l'opera sua.
+
+  La- Fa  Sol Do  La- Fa   Re-7 Sol Do
+Alleluia,  alleluia,  allelu - u - ia.
+
+  Do  Fa   Do   Sol   La-  Fa       Do  Sol
+Lui sorge dall'ultimo estremo del cielo  e la sua corsa l'altro estremo raggiunge.
+
+  La-  Fa    Sol  Do   La-    Re7  Sol7
+Nessuna delle creature potra mai sottrarsi al suo calore.
+
+Rit.
+  Do  Fa    Do  Sol    La-  Fa       Do   Sol
+I cieli narrano la gloria di Dio  e il firmamento annunzia l'opera sua.
+
+  La- Fa  Sol Do  La- Fa   Re-7 Sol Do
+Alleluia,  alleluia,  allelu - u - ia.
+
+  Do  Fa   Do   Sol   La-  Fa       Do  Sol
+La Legge di Dio rinfranca l'anima mia   la testimonianza del Signore e verace.
+
+  La-   Fa    Sol  Do   La-    Re7  Sol7
+Gioisce il cuore ai suoi giusti precetti  che danno la luce agli occhi.`
+},
+
+{
+  id: "il-canto-dell-amore",
+  title: "Il canto dell'amore",
+  categories: ["chiesa"],
+  liturgia: ["comunione"],
+  tempo: [],
+  content: `Mi             Do#-
+Se dovrai attraversare il deserto
+     La          Mi
+non temere io saro con te
+               Do#-
+se dovrai camminare nel fuoco
+     La          Mi
+la sua fiamma non ti brucera
+     Si      La      Mi
+seguirai la mia luce nella notte
+     Fa#-    Si       Do#-7
+sentirai la mia forza nel cammino
+     Re9   La9       Mi Do#- La Mi
+io sono il tuo Dio, il Signore.
+
+     Mi             Do#-
+Sono io che ti ho fatto e plasmato
+     La       Mi
+ti ho chiamato per nome
+     Mi             Do#-
+io da sempre ti ho conosciuto
+     La       Mi
+e ti ho dato il mio amore
+     Si      La      Mi
+perche tu sei prezioso ai miei occhi
+     Fa#-    Si       Do#-7
+vali piu del piu grande dei tesori
+     Re9   La9       Mi
+io saro con te dovunque andrai.
+
+     Mi             Do#-
+Non pensare alle cose di ieri
+     La          Mi
+cose nuove fioriscono gia
+               Do#-
+apriro nel deserto sentieri
+     La       Mi
+daro acqua nell'aridita
+     Si      La      Mi
+perche tu sei prezioso ai miei occhi
+     Fa#-    Si       Do#-7
+vali piu del piu grande dei tesori
+     Re9   La9       Mi
+io saro con te dovunque andrai.
+
+     Si      La      Mi
+Perche tu sei prezioso ai miei occhi
+     Fa#-    Si       Do#-
+vali piu del piu grande dei tesori
+Re9   La9       Mi
+io saro con te dovunque andrai.
+
+(cambio ritmo)
+Mi    Do#-      La    Mi
+Io ti saro accanto saro con te
+          Do#-      La    Mi
+per tutto il tuo viaggio saro con te
+          Do#-      La    Mi
+io ti saro accanto saro con te
+          Do#-      La    Mi
+per tutto il tuo viaggio saro con te.`
+},
+
+{
+  id: "il-disegno",
+  title: "Il disegno",
+  categories: ["chiesa", "lode"],
+  liturgia: [],
+  tempo: [],
+  content: `LA -      FA       SOL    DO MI
+Nel mare del silenzio una voce si alzo
+  LA -       FA     SOL    DO MI
+da una notte senza confini una luce brillo
+          LA -       MI
+dove non c'era niente quel giorno.
+
+LA -    RE -      SOL       DO MI
+Avevi scritto gia il mio nome lassu nel cielo
+LA -    RE -      SOL        DO MI
+avevi scritto gia la mia vita assieme a Te
+     LA -       MI
+avevi scritto gia di me.
+
+LA --       FA       SOL    DO MI
+E quando la Tua mente fece splendere le stelle
+  LA -       FA     SOL    DO MI
+e quando le Tue mani modellarono la terra
+          LA -       MI
+dove non c'era niente quel giorno.
+
+Rit.
+LA -    RE -      SOL       DO MI
+Avevi scritto gia il mio nome lassu nel cielo
+LA -    RE -      SOL        DO MI
+avevi scritto gia la mia vita assieme a Te
+     LA -       MI
+avevi scritto gia di me.
+
+LA -       FA       SOL    DO MI
+E quando hai calcolato la profondita del cielo
+LA -       FA       SOL    DO MI
+e quando hai colorato ogni fiore della terra
+          LA -       MI
+dove non c'era niente quel giorno.
+
+Rit.
+LA -    RE -      SOL       DO MI
+Avevi scritto gia il mio nome lassu nel cielo
+LA -    RE -      SOL        DO MI
+avevi scritto gia la mia vita assieme a Te
+     LA -       MI
+avevi scritto gia di me.
+
+LA -       FA       SOL    DO MI
+E quando hai disegnato le nubi e le montagne
+LA -       FA       SOL    DO MI
+e quando hai disegnato il cammino di ogni uomo
+          LA -       MI
+l'avevi fatto anche per me.
+
+Rit.
+LA -    RE -      SOL       DO MI
+Avevi scritto gia il mio nome lassu nel cielo
+LA -    RE -      SOL        DO MI
+avevi scritto gia la mia vita assieme a Te
+     LA -       MI
+avevi scritto gia di me.
+
+LA -    RE -      SOL       DO MI
+Se ieri non sapevo oggi ho incontrato Te
+LA -    RE -      SOL       DO MI
+e la mia liberta e il Tuo disegno su di me
+     LA -       MI     LA -
+non cerchero piu niente perche Tu mi salverai`
+},
+
+{
+  id: "in-eterno-cantero",
+  title: "In eterno cantero",
+  categories: ["chiesa", "lode"],
+  liturgia: ["ingresso"],
+  tempo: [],
+  content: `Intro: FA DO RE- SIb FA DO SIb
+
+FA           DO       RE-        SIb
+In eterno cantero la tua lode mio Signor,
+     FA       DO       SIb
+Le mie labbra esalteranno la tua fedelta,
+FA           DO       RE-        SIb
+io per sempre ti benediro e annuncero il tuo nome,
+SOL-7    (DO7 1 volta) SOL-7     FA
+in eterno io    ti cantero
+
+MIb  SIb7+        FA DO    RE-
+Anche se la tempesta mi colpira
+     SIb7+     FA     LA RE-  DO-7
+La mia lode a te Signore si elevera
+  SIb       LA7     MI-7  LA7  RE-
+Sei tu la mia fiducia, io spero  in  te,
+DO-  SIb       FA        DO4 DO
+tu sei il mio Signore, il mio Re.
+
+Anche se nel deserto mi perdero
+La tua strada mio Signore io cerchero, la
+luce del tuo amore mi guidera,
+riparo nella notte tu sarai.
+
+Rit.
+FA           DO       RE-        SIb
+In eterno cantero la tua lode mio Signor,
+     FA       DO       SIb
+Le mie labbra esalteranno la tua fedelta,
+FA           DO       RE-        SIb
+io per sempre ti benediro e annuncero il tuo nome,
+SOL-7     SOL-7     FA
+in eterno io    ti cantero
+
+Anche se dal dolore io passero
+La tua croce mio Signore contemplero,
+le mani verso il cielo innalzero,
+la voce del tuo figlio ascolterai.
+
+Rit.
+FA           DO       RE-        SIb
+In eterno cantero la tua lode mio Signor,
+     FA       DO       SIb
+Le mie labbra esalteranno la tua fedelta,
+FA           DO       RE-        SIb
+io per sempre ti benediro e annuncero il tuo nome,
+SOL-7     SOL-7     FA
+in eterno io    ti cantero (x 3)`
+},
+
+{
+  id: "in-un-mondo-di-maschere",
+  title: "In un mondo di maschere",
+  categories: ["scout"],
+  liturgia: [],
+  tempo: [],
+  content: `DO          SOL       LA-           MI-
+In un mondo di maschere, dove sembra impossibile,
+FA       DO        RE-          SOL7
+riuscire a sconfiggere tutto cio che annienta l'uomo,
+DO        SOL       LA-           MI-
+l'egoismo, la falsita, la violenza, l'avidita,
+FA                DO        RE-          SOL7
+sono mostri da abbattere, noi pero non siamo soli...
+
+Rit.
+     DO             SOL
+Canta con me, batti le mani,
+LA-       MI- FA      DO       SOL
+alzale in alto, muovile al ritmo del canto!
+DO             SOL
+Stringi la mano del tuo vicino
+LA-       MI- FA      DO       SOL7    DO
+e scoprirai  che e meno duro il cammino cosi!
+
+DO                SOL     LA-          MI-
+Ci hai donato il tuo Spirito, che sentiamo in mezzo a noi,
+FA             DO           RE-          SOL7
+e percio possiam credere, che ogni cosa puo cambiare.
+DO                SOL     LA-          MI-
+Non possiamo piu assistere, impotenti ed attoniti,
+FA                  DO        RE-          SOL7
+perche siam responsabili, della vita attorno a noi...
+
+Rit.
+     DO             SOL
+Canta con me, batti le mani,
+LA-       MI- FA      DO       SOL
+alzale in alto, muovile al ritmo del canto!
+DO             SOL
+Stringi la mano del tuo vicino
+LA-       MI- FA      DO       SOL7    DO
+e scoprirai  che e meno duro il cammino cosi!`
+},
+
+{
+  id: "invochiamo-la-tua-presenza",
+  title: "Invochiamo la tua presenza",
+  categories: ["chiesa"],
+  liturgia: ["ingresso"],
+  tempo: [],
+  content: `Re-      Sib     Fa   Do
+Invochiamo la tua presenza vieni Signor.
+Re-      Sib     Fa   Do
+Invochiamo la tua presenza scendi su di noi.
+Sol-     Re-     Sib       Do
+Vieni Consolatore e dona pace e umilta.
+Sol-     Re-     Sib        La4 La
+Acqua viva d'amore questo cuore apriamo a te.
+
+Re-        Sib          Fa             Do
+VIENI SPIRITO, VIENI SPIRITO SCENDI SU DI NOI
+Re-        Sib          Fa             Do
+VIENI SPIRITO, VIENI SPIRITO SCENDI SU DI NOI
+Sib   Do   La   Re- Sib      Do       Re-
+VIENI SU NOI MARANATHA, VIENI SU NOI SPIRITO
+Re-        Sib          Fa             Do
+VIENI SPIRITO, VIENI SPIRITO SCENDI SU DI NOI
+Re-        Sib          Fa             Do
+VIENI SPIRITO, VIENI SPIRITO SCENDI SU DI NOI
+          Re-
+SCENDI SU DI NOI
+
+Invochiamo la tua presenza vieni Signor.
+Invochiamo la tua presenza scendi su di noi.
+Vieni luce dei cuori dona forza e fedelta.
+Fuoco eterno d'amore questa vita offriamo a te.
+
+Rit.
+Re-        Sib          Fa             Do
+VIENI SPIRITO, VIENI SPIRITO SCENDI SU DI NOI
+Re-        Sib          Fa             Do
+VIENI SPIRITO, VIENI SPIRITO SCENDI SU DI NOI
+Sib   Do   La   Re- Sib      Do       Re-
+VIENI SU NOI MARANATHA, VIENI SU NOI SPIRITO
+Re-        Sib          Fa             Do
+VIENI SPIRITO, VIENI SPIRITO SCENDI SU DI NOI
+Re-        Sib          Fa             Do
+VIENI SPIRITO, VIENI SPIRITO SCENDI SU DI NOI
+          Re-
+SCENDI SU DI NOI`
+},
+
+{
+  id: "l-acqua-la-terra-il-cielo",
+  title: "L'acqua, la terra, il cielo",
+  categories: ["scout"],
+  liturgia: [],
+  tempo: [],
+  content: `RE  LA  SI- MI-  SOL      LA   RE LA FA#- SI-   SOL        LA
+In principio la terra Dio creo  con i monti i prati e i suoi color
+     FA#-    SI-     SOL       LA             RE
+il profumo dei suoi fior  che ogni giorno io rivedo intorno a me
+  LA   SI-  MI-  SOL      LA    RE LA FA#- SI-   SOL        LA
+che osservo la terra respirar  attraverso le piante e gli animal
+     FA#-    SI-     SOL       LA              RE  RE4
+che conoscere io dovro  per sentirmi di essa parte almeno un po'.
+
+  SI-     FA#-   SOL     RE   SOL   RE       LA    LA4
+Questa avventura, queste scoperte  le voglio viver con te
+  SI-     FA#-   SOL     RE   SOL     RE       LA
+guarda che incanto e questa natura  e noi siamo parte di lei.
+
+RE  LA  SI- MI-  SOL      LA   RE LA FA#- SI-   SOL        LA
+Le mie mani in te immergerai fresca acqua mentre scorri via
+     FA#-    SI-     SOL       LA            RE
+fra i sassi del ruscello  una canzone lieve fai sentire
+
+Rit.
+  SI-     FA#-   SOL     RE   SOL   RE       LA    LA4
+Questa avventura, queste scoperte  le voglio viver con te
+  SI-     FA#-   SOL     RE   SOL     RE       LA
+guarda che incanto e questa natura  e noi siamo parte di lei.
+
+RE  LA  SI- MI-  SOL      LA   RE LA FA#- SI-   SOL        LA
+Guarda il cielo che colori ha  e un gabbiano che in alto vola gia
+     FA#-    SI-     SOL       LA            RE
+quasi per mostrare che  ha imparato a viver la sua liberta
+
+Rit.
+  SI-     FA#-   SOL     RE   SOL   RE       LA    LA4
+Questa avventura, queste scoperte  le voglio viver con te
+  SI-     FA#-   SOL     RE   SOL     RE       LA
+guarda che incanto e questa natura  e noi siamo parte di lei.`
+},
+
+{
+  id: "l-aria",
+  title: "L'aria",
+  categories: ["scout"],
+  liturgia: [],
+  tempo: [],
+  content: `LA                    RE        LA
+L'aria e il soffio di Dio che ti riempie i polmoni
+FA#-       SI-      RE           MI
+l'aria cambia ogni giorno, profumo alle stagioni,
+LA                    RE        LA
+l'aria fresca al mattino ti punge la pelle,
+FA#-       SI-           MI
+l'aria chiara di sera da forma alle stelle... le stelle... le stelle...
+
+RE              LA      RE               MI
+L'aria la guardi e non la vedi, l'aria la stringi e non la tocchi,
+RE              LA      FA#-    SI-           MI
+e fra i capelli, e sotto i tuoi piedi, mette allegria nei tuoi occhi,
+RE          LA              RE        MI         LA
+l'aria in fondo e soltanto un respiro, l'aria e il tuo spicchio di cielo,
+  MI    RE    MI        LA
+l'aria..., l'aria e il tuo spicchio di cielo.
+
+     LA                   RE        LA
+L'aria azzurra accarezza le cime dei monti,
+     FA#-       SI-      RE           MI
+l'aria rossa confonde i colori dei tramonti,
+LA                    RE        LA
+sono tante molecole che si tengono per mano
+FA#-       SI-           MI
+che diventano vento e schizzano lontano... lontano... lontano...
+
+RE              LA      RE               MI
+L'aria la chiami e ti risponde,l'aria si insinua sotto terra,
+RE              LA      FA#-    SI-           MI
+e dentro l'acqua, sotto le onde,e un eco forte di chitarra,
+RE          LA              RE        MI         LA
+l'aria in fondo e soltanto un respiro, l'aria e il tuo spicchio di cielo,
+  MI    RE    MI        LA
+l'aria..., l'aria e il tuo spicchio di cielo.
+
+     LA                   RE        LA
+L'aria gonfia le vele, sostiene i gabbiani,
+     FA#-       SI-      RE           MI
+lascia spazio alle rotte degli aeroplani,
+LA                    RE        LA
+soffia e spinge le pale dei vecchi mulini,
+FA#-       SI-      MI
+gioca a spegnere i tuoi cerini... piccini...piccimi...
+
+RE              LA      RE               MI
+L'aria la guardi e non la vedi, l'aria la stringi e non la tocchi,
+RE              LA      FA#-    SI-           MI
+e fra i capelli, e sotto i tuoi piedi, mette allegria nei tuoi occhi,
+RE          LA              RE        MI         LA
+l'aria in fondo e soltanto un respiro, l'aria e il tuo spicchio di cielo,
+  MI    RE    MI        LA
+l'aria..., l'aria e il tuo spicchio di cielo.`
+},
+
+{
+  id: "laudato-sii",
+  title: "Laudato sii",
+  categories: ["chiesa", "francescano"],
+  liturgia: ["ingresso", "finale"],
+  tempo: [],
+  content: `DO        LA-      RE-          SOL
+Laudato sii, Signore mio... laudato sii, Signore mio
+               LA-                FA
+laudato sii, Signore mio... laudato sii, Signore mio
+               SOL                FA
+laudato sii, Signore mio... laudato sii, Signore mio
+               DO
+laudato sii, Signore mio, laudato sii
+
+DO     LA-       RE-          SOL
+Per il sole d'ogni giorno... laudato sii, Signore mio
+          LA-                FA
+che riscalda e dona vita... laudato sii, Signore mio
+          SOL                FA
+egli illumina il cammino... laudato sii, Signore mio
+          DO
+di chi cerca te, Signore... laudato sii, laudato sii
+
+DO     LA-       RE-          SOL
+Per la luna e per le stelle... laudato sii, Signore mio
+          LA-                FA
+io le sento mie sorelle... laudato sii, Signore mio
+          SOL                FA
+le hai formate su nel cielo... laudato sii, Signore mio
+          DO
+e le doni a chi e nel buio... laudato sii, laudato sii
+
+DO     LA-       RE-          SOL
+Per la nostra madre terra... laudato sii, Signore mio
+          LA-                FA
+che ci dona fiori ed erba... laudato sii, Signore mio
+          SOL                FA
+su di lei noi fatichiamo... laudato sii, Signore mio
+          DO
+per il pane di ogni giorno... laudato sii, laudato sii
+
+DO     LA-       RE-          SOL
+Per chi soffre con coraggio... laudato sii, Signore mio
+          LA-                FA
+e perdona nel tuo amore... laudato sii, Signore mio
+          SOL                FA
+tu gli dai la pace tua... laudato sii, Signore mio
+          DO
+alla sera della vita.. laudato sii, laudato sii
+
+DO     LA-       RE-          SOL
+Per la morte che e di tutti... laudato sii, Signore mio
+          LA-                FA
+io la sento ogni istante... laudato sii, Signore mio
+          SOL                FA
+me se vivo nel tuo amore... laudato sii, Signore mio
+          DO
+dona un senso alla mia vita... laudato sii, laudato sii`
+},
+
+{
+  id: "le-tue-meraviglie",
+  title: "Le tue meraviglie",
+  categories: ["chiesa"],
+  liturgia: ["finale"],
+  tempo: [],
+  content: `La- Mi- Fa Do Re- La- Fa Sol
+La- Mi- Fa Do Re- La- Fa Sol La-
+
+Rit.     Fa   Sol    Mi-  La-
+Ora lascia, o Signore, che io vada in pace,
+          Re-   Do   Sib Sol
+Perche ho visto le tue meravi - glie.
+     Fa   Sol    Mi-  La-
+Il tuo popolo in festa per le strade correra
+     Re-   Do  Sib  Sol
+A portare le tue meravi - glie!
+
+La-  Mi-    Fa   Do
+La tua presenza ha riempito d'amore
+La-  Mi-    Fa   Do
+le nostre vite, le nostre giornate.
+Sib       Fa
+In te una sola anima,
+Sol-       Fa
+un solo cuore siamo noi:
+Sib       Fa
+con te la luce risplende,
+Sol-       Do
+splende piu chiara che mai!
+
+Rit.
+     Fa   Sol    Mi-  La-
+Ora lascia, o Signore, che io vada in pace,
+          Re-   Do   Sib Sol
+Perche ho visto le tue meravi - glie.
+     Fa   Sol    Mi-  La-
+Il tuo popolo in festa per le strade correra
+     Re-   Do  Sib  Sol
+A portare le tue meravi - glie!
+
+La-  Mi-    Fa   Do
+La tua presenza ha inondato d'amore
+La-  Mi-    Fa   Do
+le nostre vite, le nostre giornate.
+Sib       Fa
+fra la tua gente resterai,
+Sol-       Fa
+per sempre vivo in mezzo a noi
+Sib       Fa
+fino ai confini del tempo:
+Sol-       Do
+cosi ci accompagnerai.
+
+Rit.
+     Fa   Sol    Mi-  La-
+Ora lascia, o Signore, che io vada in pace,
+          Re-   Do   Sib Sol
+Perche ho visto le tue meravi - glie.
+     Fa   Sol    Mi-  La-
+Il tuo popolo in festa per le strade correra
+     Re-   Do  Sib  Sol
+A portare le tue meravi - glie!
+
+Rit finale.   Fa    Sol     Mi-   La-
+Ora lascia, o Signore, che io vada in pace,
+               Fa    Sol   Mi-  La-
+Perche ho visto le tue meravi - glie
+               Fa    Sol     Mi-   La-
+e il tuo popolo in festa per le strade correra
+               Fa    Sol   Fa    Do
+A portare le tue meravi - - -glie!`
+},
+
+{
+  id: "l-emmanuel",
+  title: "L'Emmanuel",
+  categories: ["chiesa"],
+  liturgia: ["ingresso", "finale"],
+  tempo: ["natale"],
+  content: `RE
+Dall'orizzonte una grande luce
+  LA
+viaggia nella storia
+  SOL
+e lungo gli anni ha vinto il buio
+  LA          LA7
+facendosi Memoria
+  RE              LA
+e illuminando la nostra vita chiaro ci rivela
+  SOL
+che non si vive se non si cerca
+MI-  LA RE LA7 MI-  LA7
+la Verita.
+  RE
+Un grande dono che Dio ci ha fatto
+  LA         SOL
+e Cristo, il suo Figlio e l'umanita e rinnovata,
+LA      LA7
+e in Lui salvata.
+
+     RE SOL
+Siamo qui sotto la stessa luce,
+MI-        DO         LA  LA7
+sotto la sua croce, cantando ad una voce.
+  RE    LA    SOL        LA LA7
+E' l'Emmanuel, l'Emmanuel, l'Emmanuel.
+  RE    LA    SOL
+E' l'Emmanuel, l'Emmanuel.
+
+  RE
+La morte e uccisa, la vita ha vinto,
+e Pasqua in tutto il mondo,
+un vento soffia in ogni uomo lo Spirito fecondo,
+che porta avanti nella storia la Chiesa sua sposa,
+sotto lo sguardo di Maria, comunita.
+
+Rit.
+     RE SOL
+Siamo qui sotto la stessa luce,
+MI-        DO         LA  LA7
+sotto la sua croce, cantando ad una voce.
+  RE    LA    SOL        LA LA7
+E' l'Emmanuel, l'Emmanuel, l'Emmanuel.
+  RE    LA    SOL
+E' l'Emmanuel, l'Emmanuel.
+
+FA                DO
+Noi debitori del passato di secoli di storia,
+SIb              DO          DO7
+di vite date per amore, di santi che han creduto,
+
+  SOL   RE    DO        RE RE7
+E' l'Emmanuel, l'Emmanuel, l'Emmanuel.
+  SOL   RE    DO
+E' l'Emmanuel, l'Emmanuel.`
+},
+
+{
+  id: "lode-al-nome-tuo",
+  title: "Lode al nome tuo",
+  categories: ["chiesa", "lode"],
+  liturgia: ["ingresso", "finale"],
+  tempo: [],
+  content: `Sol  Re  Mi-  Do
+
+Sol     Re       Mi-     Do
+Lode al nome tuo dalle terre piu floride
+     Sol     Re      Do       Do
+Dove tutto sembra vivere lode al nome tuo
+Sol     Re       Mi-     Do
+Lode al nome tuo dalle terre piu aride
+     Sol     Re      Do
+Dove tutto sembra sterile lode al nome tuo
+Sol     Re       Mi-     Do
+Tornero a lodarti sempre per ogni dono tuo
+Sol     Re       Mi-     Do
+E quando scendera la notte sempre io diro
+     Sol     Re       Mi- Do
+Benedetto il nome del Signor lode al nome tuo
+     Sol     Re
+Benedetto il nome del Signor
+     Mi-     Do
+Il glorioso nome di Gesu
+
+Sol     Re       Mi-     Do
+Lode al nome tuo quando il sole splende su di me
+     Sol     Re      Do       Do
+Quando tutto e incantevole lode al nome tuo
+Sol     Re       Mi-     Do
+Lode al nome tuo quando io sto davanti a te
+     Sol     Re      Do       Do
+Con il cuore triste e fragile lode al nome tuo
+Rit.
+Sol     Re       Mi-     Do
+Tornero a lodarti sempre per ogni dono tuo
+Sol     Re       Mi-     Do
+E quando scendera la notte sempre io diro
+     Sol     Re       Mi- Do
+Benedetto il nome del Signor lode al nome tuo
+     Sol     Re
+Benedetto il nome del Signor
+     Mi-     Do
+Il glorioso nome di Gesu
+
+     Sol     Re       Mi-     Do
+Tu doni e porti via  tu doni e porti via
+     Sol     Re  Mi-     Do
+ma sempre scegliero di benedire te
+
+Rit.
+Sol     Re       Mi-     Do
+Tornero a lodarti sempre per ogni dono tuo
+Sol     Re       Mi-     Do
+E quando scendera la notte sempre io diro
+     Sol     Re       Mi- Do
+Benedetto il nome del Signor lode al nome tuo
+     Sol     Re
+Benedetto il nome del Signor
+     Mi-     Do
+Il glorioso nome di Gesu
+
+Finale Sol`
+},
+
+{
+  id: "lode-e-gloria-a-te",
+  title: "Lode e gloria a te",
+  categories: ["chiesa", "lode"],
+  liturgia: ["ingresso", "finale"],
+  tempo: [],
+  content: `intro: MI LA
+
+MI      LA     MI LA
+Lode e gloria a te,
+MI      SI     MI SI
+lode e gloria a te,
+DO#-        FA#-
+luce del mattino,
+MI     SI7    MI
+lode e gloria a te.
+
+MI      LA     MI LA
+M'ha fatto camminare,
+MI      SI     MI SI
+lode e gloria a te,
+DO#-        FA#-
+Per questo canto:
+MI     SI7    MI
+lode e gloria a te.
+
+MI      LA     MI LA
+Lodatelo nel tempio,
+MI      SI     MI SI
+lodatelo nel ciel,
+DO#-        FA#-
+lo sempre canto:
+MI     SI7    MI
+lode e gloria a te.
+
+MI      LA     MI LA
+Lo lodero con l'arpa,
+MI      SI     MI SI
+io lodero il Signore
+DO#-        FA#-
+ha fatto grandi cose:
+MI     SI7    MI
+lode e gloria a te.
+
+MI      LA     MI LA
+Lodero con danze,
+MI      SI     MI SI
+m'ha fatto camminare
+DO#-        FA#-
+per questo canto:
+MI     SI7    MI
+lode e gloria a te.
+
+MI      LA     MI LA
+Lode e gloria a te,
+MI      SI     MI SI
+lode e gloria a te,
+DO#-        FA#-
+luce del mattino,
+MI     SI7    MI
+lode e gloria a te.`
+},
+
+{
+  id: "l-unico-maestro",
+  title: "L'unico maestro",
+  categories: ["chiesa"],
+  liturgia: ["comunione"],
+  tempo: [],
+  content: `LA-      MI    LA-       MI7
+Le mie mani, con le tue, possono fare meraviglie,
+LA-           MI     LA-         MI
+possono stringere, perdonare e costruire cattedrali,
+DO    SOL    FA  MI  LA-       MI7
+possono dare da mangiare o far fiorire una preghiera.
+
+     DO       SOL      LA-              FA
+Perche, tu, solo tu solo tu sei mio maestro e insegnami
+FA-                DO       SOL
+ad amare come hai fatto tu con me, se lo vuoi,
+     LA-              FA
+io lo grido a tutto il mondo che tu sei
+FA-              DO
+l'unico maestro sei per me.
+
+LA-      MI    LA-       MI7
+Questi piedi, con i tuoi, possono fare strade nuove,
+LA-           MI     LA-         MI
+possono correre, riposare, sentirsi a casa in questo mondo,
+DO    SOL    FA  MI  LA-       MI7
+possono mettere radici e a passo passo camminare.
+
+Rit.
+     DO       SOL      LA-              FA
+Perche, tu, solo tu solo tu sei mio maestro e insegnami
+FA-                DO       SOL
+ad amare come hai fatto tu con me, se lo vuoi,
+     LA-              FA
+io lo grido a tutto il mondo che tu sei
+FA-              DO
+l'unico maestro sei per me.
+
+LA-      MI    LA-       MI7
+Questi occhi, con i tuoi, potran vedere meraviglie,
+LA-           MI     LA-         MI
+potranno piangere, luccicare, guardare oltre oltre ogni frontiera,
+DO    SOL    FA  MI  LA-       MI7
+potranno amare piu di ieri, se sanno insieme a te sognare.
+
+Rit.
+     DO       SOL      LA-              FA
+Perche, tu, solo tu solo tu sei mio maestro e insegnami
+FA-                DO       SOL
+ad amare come hai fatto tu con me, se lo vuoi,
+     LA-              FA
+io lo grido a tutto il mondo che tu sei
+FA-              DO
+l'unico maestro sei per me.`
+},
+
+{
+  id: "luce",
+  title: "Luce",
+  categories: ["chiesa", "lode"],
+  liturgia: [],
+  tempo: [],
+  content: `Intro: SOL RE MI- DO RE SOL
+
+SOL           RE     MI-     DO     RE
+C'e il segreto della liberta quella vera batte dentro di te
+ SOL              RE       MI-      DO     RE
+E' come risvegliarsi un mattino con il sole dopo un lungo inverno
+SOL        RE       MI-        DO       RE
+Nel soffrire mio Signore ho incontrato Te Dio Amore
+SOL        RE       MI-     DO     RE
+Nel perdono nel gioire ho capito che sei luce per me
+
+SOL         RE          MI-   DO RE
+Signore sono qui per dirti ancora si    luce
+SOL              RE          MI-   DO RE
+Fammi scoppiare di gioia di vivere    lusce
+SOL              RE          MI-    DO RE
+Fammi strumento per portare intorno a me    luce
+SOL              RE          MI-    DO RE
+e chi e vicino a me sappia che tutto in Te    e luce
+
+SOL           RE     MI-     DO     RE
+Voglio ringraziarti Signore per la vita che mi hai ridonato
+SOL              RE       MI-      DO     RE
+so che sei nell'amore degli amici che ora ho incontrato
+
+Rit.
+SOL         RE          MI-   DO RE
+Signore sono qui per dirti ancora si    luce
+SOL              RE          MI-   DO RE
+Fammi scoppiare di gioia di vivere    lusce
+SOL              RE          MI-    DO RE
+Fammi strumento per portare intorno a me    luce
+SOL              RE          MI-    DO RE
+e chi e vicino a me sappia che tutto in Te    e luce
+
+MI-          DO         SOL          RE
+E con le lacrime agli occhi e le mani alzate verso te Gesu
+MI-          DO         SOL          RE
+con la speranza nel cuore e la tua luce in me paura non ho piu
+
+Rit.
+SOL         RE          MI-   DO RE
+Signore sono qui per dirti ancora si    luce
+SOL              RE          MI-   DO RE
+Fammi scoppiare di gioia di vivere    lusce
+SOL              RE          MI-    DO RE
+Fammi strumento per portare intorno a me    luce
+SOL              RE          MI-    DO RE
+e chi e vicino a me sappia che tutto in Te    e luce`
+},
+
+{
+  id: "magnifica",
+  title: "Magnifica",
+  categories: ["chiesa", "mariano"],
+  liturgia: [],
+  tempo: [],
+  content: `sol                  si-
+Vorrei che ogni passo che passo sul sentiero
+do7+                sol
+vorrei di giorno in giorno si facesse piu leggero
+vorrei che camminando cadessero giu a terra
+le cose che trattengo per cui sono sempre in guerra
+
+     la-       mi-
+e vorrei stare con te
+     la-
+e vorrei bastasse questo e tutto il resto
+mi-
+non contasse piu
+     la-       mi-
+e vorrei amare te
+     la-
+e sentire la tua mano che mi copre
+     re
+e veglia su di me
+
+sol   si-   do7+  sol
+Magnifica
+
+vorrei che l'orizzonte fosse solo la mia sete
+vorrei che la mia barca rimanesse senza rete
+vorrei solcare il mare senza fissa posizione
+vorrei che fossi tu a dare la mia direzione
+
+     la-       mi-
+e vorrei stare con te
+     la-
+e vorrei bastasse questo e tutto il resto
+mi-
+non contasse piu
+     la-       mi-
+e vorrei amare te
+     la-
+e sentire la tua mano che mi copre
+     re
+e veglia su di me
+
+sol   si-   do7+  sol
+Magnifica
+
+Ho scritto sulla pietra l'amore che mi hai dato
+hai scritto sulla sabbia tutto quello che ho sbagliato
+Hai messo una promessa nel cuore di mio padre
+mantengo la parola: sarai figlio ed io tua madre
+
+e vedro cadere giu
+la ricchezza, la potenza e ogni forza che sovrana in me
+e vedro salire su
+Umilmente l'impotenza del perdente.
+Pace sia con me.
+
+Magnifica`
+},
+
+{
+  id: "mani",
+  title: "Mani",
+  categories: ["chiesa"],
+  liturgia: ["offertorio"],
+  tempo: [],
+  content: `RE       SOL    LA        RE
+Vorrei che le parole mutassero in preghiera
+SOL     SI-    SOL         LA
+e rivederti o Padre che dipingevi il cielo.
+RE       SOL    LA        RE
+Sapessi quante volte guardando questo mondo
+SOL     SI-    SOL         LA
+vorrei che ritornassi a ritoccarne il cuore.
+SI-      FA#-  SOL        RE
+Vorrei che le mie mani avessero la forza
+SOL     MI-         LA
+per sostenere chi non puo camminare.
+SI-      FA#-   SOL        RE
+Vorrei che questo cuore che esplode in sentimenti
+SOL     SI-    SOL         LA
+diventasse culla per chi non ha piu madre...
+
+     RE               LA
+Mani, prendi queste mie mani
+          SOL
+fanne vita, fanne amore
+          SI- LA
+braccia aperte per ricevere... chi e solo
+RE               LA
+Cuore, prendi questo mio cuore
+          SOL
+fa che si spalanchi al mondo
+          SI-
+germogliando per quegli occhi
+     LA       SOL
+che non sanno pianger piu
+
+RE       SOL  LA        RE
+Sei Tu lo spazio che desidero da sempre
+SOL     SI-    SOL         LA
+so che mi stringerai e mi terrai la mano
+RE       SOL    LA        RE
+fa che le mie strade si perdano nel buio
+SOL     SI-    SOL         LA
+ed io cammini dove cammineresti Tu.
+SI-      FA#-  SOL        RE
+Tu soffio della vita prendi la mia giovinezza
+SOL     MI-         LA
+con le contraddizioni e le falsita
+SI-      FA#-   SOL        RE
+Strumento fa che sia per annunciare il regno
+SOL     SI-    SOL         LA
+a chi per queste vie tu chiami beati...
+
+Rit.
+     RE               LA
+Mani, prendi queste mie mani
+          SOL
+fanne vita, fanne amore
+          SI- LA
+braccia aperte per ricevere... chi e solo
+RE               LA
+Cuore, prendi questo mio cuore
+          SOL
+fa che si spalanchi al mondo
+          SI-
+germogliando per quegli occhi
+     LA       SOL
+che non sanno pianger piu
+
+RE       SOL    LA        RE
+Noi giovani di un mondo che cancella i sentimenti
+SOL     SI-    SOL         LA
+e inscatola le forze nell'asfalto di citta
+RE       SOL    LA        RE
+siamo stanchi di guardare siamo stanchi di gridare
+SOL     SI-    SOL         LA
+ci hai chiamati siamo tuoi cammineremo insieme...
+
+Rit.
+     RE               LA
+Mani, prendi queste mie mani
+          SOL
+fanne vita, fanne amore
+          SI- LA
+braccia aperte per ricevere... chi e solo
+RE               LA
+Cuore, prendi questo mio cuore
+          SOL
+fa che si spalanchi al mondo
+          SI-
+germogliando per quegli occhi
+     LA       SOL
+che non sanno pianger piu`
+},
+
+{
+  id: "mani-2",
+  title: "Mani 2",
+  categories: ["chiesa"],
+  liturgia: ["offertorio"],
+  tempo: [],
+  content: `  DO       FA       DO
+Il sole scende, e quasi notte ormai,
+  FA                    SOL       DO
+dai, restiamo ancora insieme un po' meno buio sara.
+  FA       DO      MI-         LA-
+La Parola del Signore,come luce in mezzo a noi,
+     RE7/9  FA          SOL4 SOL
+ci rischiara e ci unisce a Lui.
+
+  DO   DO4        DO       RE-7        DO
+Mani che si stringono forte, in un cerchio di sguardi
+FA             SOL4 SOL
+che si incrociano
+          LA-        RE-
+come un abbraccio stretto,
+     SOL           DO7+
+per sentire che la Chiesa vive,
+     FA7+       SIb        SOL4 SOL
+che vive dentro noi, insieme a noi.
+  DO   DO4            DO
+E sono mani che si tendono in alto,
+RE-7              DO       FA        SOL4 SOL
+Che si aprono grandi per raccogliere
+     LA-        RE-
+quella forza immensa,
+     SOL           DO7+
+che il Signore mette in fondo al cuore,
+     FA7+       SIb        SOL4 SOL
+e annunciare a tutti che Dio ci ama.
+
+  DO       FA       DO
+E veglieremo con le lampade,
+  FA                SOL       DO
+aspettando, nella notte,finche giorno sara;
+  FA       DO      MI-         LA-
+e la voce del Signore all'improvviso giungera,
+     RE7/9  FA          SOL4 SOL
+saremo pronti, saremo amici suoi.`
+},
+
+{
+  id: "maria-tu-sei",
+  title: "Maria tu sei",
+  categories: ["chiesa", "mariano"],
+  liturgia: [],
+  tempo: [],
+  content: `          SOL          RE
+Maria tu sei la vita per me
+          DO      MI-  DO6
+sei la speranza, la gioia, l'Amore
+SOL    RE
+tutto sei.
+          SOL          RE
+Maria tu sai quello che vuoi
+          DO     MI-      DO6
+sai con che forza d'amore in cielo
+     SOL
+mi porterai.
+
+  MI-    RE
+Maria ti do
+               DO       MI- DO6
+il mio cuore per sempre se vuoi
+          SOL          RE
+tu dammi l'amore che non passa mai...
+     MI-
+rimani con me
+          RE
+e andiamo nel mondo insieme
+          DO       MI- DO6
+la tua presenza sara
+          SOL          RE
+goccia di paradiso per l'umanita...
+
+Maria con te sempre vivro
+in ogni momento, giocando, cantando,
+ti amero.
+Seguendo i tuoi passi in te io avro
+la luce che illumina i giorni e le notti
+dell'anima.
+
+Rit.
+  MI-    RE
+Maria ti do
+               DO       MI- DO6
+il mio cuore per sempre se vuoi
+          SOL          RE
+tu dammi l'amore che non passa mai...
+     MI-
+rimani con me
+          RE
+e andiamo nel mondo insieme
+          DO       MI- DO6
+la tua presenza sara
+          SOL          RE
+goccia di paradiso per l'umanita... (SOL finale)`
+},
+
+{
+  id: "musica-di-festa",
+  title: "Musica di festa",
+  categories: ["chiesa", "lode"],
+  liturgia: ["ingresso", "finale"],
+  tempo: ["ordinario"],
+  content: `intro: MI- SI- MI-
+
+MI-    SI-  MI-    SI-
+Cantate al Signore un cantico nuovo:
+MI-    SI- MI- SI-
+splende la sua gloria!
+MI-    SI-
+Grande e la sua forza
+MI-    SI-
+grande la sua pace,
+MI-   SI-  MI-
+grande la Sua Santita!
+
+     LA-         SOL
+In tutta la terra, popoli del mondo,
+     RE       MI- RE SOL
+gridate la sua fedelta!
+     LA-         SOL
+Musica di festa, musica di lode,
+     RE     SI MI-
+musica di liberta!
+
+MI-    SI-  MI-    SI-
+Con l'arpa ed il corno, con timpani e flauti,
+MI-    SI- MI- SI-
+con tutta la voce!
+MI-    SI-
+canti di salvezza,
+MI-   SI-  MI-
+canti d'immortalita!
+
+Rit.
+     LA-         SOL
+In tutta la terra, popoli del mondo,
+     RE       MI- RE SOL
+gridate la sua fedelta!
+     LA-         SOL
+Musica di festa, musica di lode,
+     RE     SI MI-
+musica di liberta!
+
+MI-   SI-   MI-    SI-
+I fiumi e i monti, battono le mani
+MI-   SI- MI- SI-
+davanti al Signore!
+
+Rit.
+     LA-         SOL
+In tutta la terra, popoli del mondo,
+     RE       MI- RE SOL
+gridate la sua fedelta!
+     LA-         SOL
+Musica di festa, musica di lode,
+     RE     SI MI-
+musica di liberta!
+
+MI-   SI-  MI-    SI-
+Al Dio che ci salva, gloria in eterno
+MI-   SI- MI- SI-
+Amen! Alleluja!
+MI-   SI-  MI-    SI-
+Gloria a Dio Padre, gloria a Dio Figlio,
+MI-    SI-  MI-
+gloria a Dio Spirito!
+
+Rit.
+     LA-         SOL
+In tutta la terra, popoli del mondo,
+     RE       MI- RE SOL
+gridate la sua fedelta!
+     LA-         SOL
+Musica di festa, musica di lode,
+     RE     SI MI-
+musica di liberta!
+
+finale: MI-`
+},
+
+{
+  id: "non-vi-conosco-tutti",
+  title: "Non vi conosco tutti",
+  categories: ["scout"],
+  liturgia: [],
+  tempo: [],
+  content: `SOL  RE  FA  DO RE SOL  RE  FA  DO RE
+Alle - luia! Alle - lu - ia!  Alle - luia! Alle - lu - ia!
+
+SOL     RE        FA DO RE
+Non vi conosco tutti, amici miei,
+SOL     RE     FA  DO SOL
+pero il Signore consce voi e me!
+LA-      FA  LA-      FA
+Nel nome Suo, nel nome Suo
+SOL       DO       SOL FA    DO
+in paesi lontani, io non saro mai solo,
+RE     SOL MI- DO  LA7   RE4 RE
+fra tanti amici io non saro mai triste!
+MI-    SI-     DO LA-     SI-
+Il deserto piu arido diventera un giardino
+DO          LA      SOL RE
+e coglieremo i fiori sulla neve!
+
+Rit.
+SOL  RE  FA  DO RE SOL  RE  FA  DO RE
+Alle - luia! Alle - lu - ia!  Alle - luia! Alle - lu - ia!
+
+SOL     RE        FA DO RE
+Non vi conosco tutti, amici miei,
+SOL     RE     FA  DO SOL
+pero il Signore consce voi e me!
+LA-      FA  LA-      FA
+Nel nome Suo, nel nome Suo
+SOL       DO       SOL FA    DO
+per la fame ed il freddo io non dovro soffrire,
+RE     SOL MI- DO  LA7  RE4 RE
+la vostra casa, sara la casa mia!
+MI-    SI-     DO   LA-     SI-
+E nel letto che trovero mi svegliera la luce
+     DO          LA      SOL RE
+d'un giorno nuovo e meraviglioso!
+
+Rit.
+SOL  RE  FA  DO RE SOL  RE  FA  DO SOL
+Alle - luia! Alle - lu - ia!  Alle - luia! Alle - lu - ia!`
+},
+
+{
+  id: "ogni-mia-parola",
+  title: "Ogni mia parola",
+  categories: ["chiesa"],
+  liturgia: ["comunione"],
+  tempo: [],
+  content: `INTRO: DO FA DO SOL
+
+     DO        FA        DO SOL
+Come la pioggia e la neve
+     DO        FA        SOL
+scendono giu dal cielo
+     LA-    SOL      FA       SOL
+e non vi ritornano senza irrigare
+     FA       SOL     FA SOL
+e far germogliare la terra.
+
+     DO              FA
+Cosi ogni mia parola
+          DO       SOL
+non ritornera a me
+     DO                 FA       SOL
+senza operare quanto desidero
+LA-
+senza aver compiuto
+     SOL       FA       DO
+cio per cui l'avevo mandata
+     FA       SOL    FA       SOL
+ogni mia parola, ogni mia parola.
+(da capo a canone)
+     FA       DO    FA       DO
+ogni mia parola, ogni mia parola
+
+FINALE: DO`
+},
+
+{
+  id: "pace-a-te",
+  title: "Pace a te, pace a te",
+  categories: ["chiesa", "scout"],
+  liturgia: ["finale"],
+  tempo: [],
+  content: `DO       FA       DO       FA       DO
+Nel Signore io ti do la pace, pace a te, pace a te!
+DO    LA-   FA     DO          LA-  SOL7   DO
+Nel Signore io ti do la pace, pace a te, pace a te!
+          FA       DO       FA       DO
+Nel suo nome resteremo uniti, pace a te, pace a te!
+          MI7       LA-    FA    DO  SOL7   DO
+Nel suo nome resteremo uniti, pace a te, pace a te!
+
+DO       FA       DO       FA       DO
+E se anche non ci conosciamo, pace a te, pace a te!
+DO    LA-   FA     DO          LA-  SOL7   DO
+E se anche non ci conosciamo, pace a te, pace a te!
+          FA       DO       FA       DO
+Lui conosce tutti i nostri cuori, pace a te, pace a te!
+          MI7       LA-    FA    DO  SOL7   DO
+Lui conosce tutti i nostri cuori, pace a te, pace a te!
+
+DO       FA       DO       FA       DO
+Se il pensiero non e sempre unito, pace a te, pace a te!
+          FA       DO       FA       DO
+Siamo uniti nella stessa fede, pace a te, pace a te!
+
+DO       FA       DO       FA       DO
+E se noi ci vorremo bene, pace a te, pace a te!
+          FA       DO       FA       DO
+Il Signore ci vorra salvare, pace a te, pace a te!`
+},
+
+{
+  id: "pace-sia-pace-a-voi",
+  title: "Pace sia, pace a voi",
+  categories: ["chiesa"],
+  liturgia: ["finale"],
+  tempo: [],
+  content: `     RE
+"Pace sia, pace a voi":
+     SOL
+la tua pace sara
+     SI-         LA4
+sulla terra com'e nei cieli
+     RE
+"Pace sia, pace a voi":
+     SOL
+la tua pace sara
+  FA     DO       SOL LA
+gioia nei nostri occhi nei cuori
+     RE
+"Pace sia, pace a voi":
+     SOL
+la tua pace sara
+     SI-         LA4  LA
+luce limpida nei pensieri
+     RE
+"Pace sia, pace a voi":
+     SOL
+la tua pace sara
+  RE     LA4      RE SOL RE
+una casa per tutti.
+
+SOL     RE
+"Pace a voi":
+          LA       SI-
+sia il tuo dono visibile
+SOL     RE
+"Pace a voi":
+          LA   SI-
+la tua eredita
+SOL     RE
+"Pace a voi":
+          LA       SI-
+come un canto all'unisono
+     DO           LA4  LA
+che sale dalle nostre citta.
+
+Rit.
+     RE
+"Pace sia, pace a voi":
+     SOL
+la tua pace sara
+     SI-         LA4
+sulla terra com'e nei cieli
+     RE
+"Pace sia, pace a voi":
+     SOL
+la tua pace sara
+  FA     DO       SOL LA
+gioia nei nostri occhi nei cuori
+     RE
+"Pace sia, pace a voi":
+     SOL
+la tua pace sara
+     SI-         LA4  LA
+luce limpida nei pensieri
+     RE
+"Pace sia, pace a voi":
+     SOL
+la tua pace sara
+  RE     LA4      RE SOL RE
+una casa per tutti.`
+},
+
+{
+  id: "padre-nostro",
+  title: "Padre nostro",
+  categories: ["chiesa"],
+  liturgia: ["padre-nostro"],
+  tempo: [],
+  content: `SI-                LA
+Padre nostro tu che stai
+               SI-
+in chi ama verita,
+     RE         SOL     RE
+ed il regno che Lui ci lascio,
+               SOL     RE
+venga presto nel nostro cuor
+     SOL                RE       SI-
+e l'amore che tuo figlio ci dono, o Signor,
+          LA       SI-
+rimanga sempre in noi
+
+               LA
+E nel pan dell'unita,
+               SI-
+dacci la fraternita,
+     RE     SOL     RE
+e dimentica il nostro mal,
+                    SOL     RE
+che anche noi sappiamo perdonar,
+     SOL                   RE          SI-
+non permettere che cadiamo in tentazion, o Signor
+          LA       SI-
+abbi pieta del mondo.`
+},
+
+{
+  id: "pane-del-cielo",
+  title: "Pane del cielo",
+  categories: ["chiesa"],
+  liturgia: ["comunione"],
+  tempo: [],
+  content: `intro: re mi- sol re
+
+re       fa#-   sol        re
+Pane del Cielo, sei Tu, Gesu,
+si- mi-       sol          re
+via d'amore: Tu ci fai come Te.
+
+sol       mi-        la
+No, non e rimasta fredda la terra:
+fa#-   sol    re  sol         re
+Tu sei rimasto con noi   per nutrirci di Te,
+si-   la   si-      la         fa#-
+Pane di Vita; ed infiammare col tuo amore
+la     sol  re
+tutta l'umani - ta.
+
+Si, il Cielo e qui su questa terra:
+Tu sei rimasto con noi ma ci porti con Te
+nella tua casa dove vivremo insieme a Te
+tutta l'eternita.
+
+No, la morte non puo farci paura:
+Tu sei rimasto con noi e chi vive in Te
+vive per sempre. Sei Dio con noi, sei Dio per noi,
+Dio in mezzo a noi.`
+},
+
+{
+  id: "per-te",
+  title: "Per te",
+  categories: ["chiesa", "lode"],
+  liturgia: [],
+  tempo: [],
+  content: `RE
+Chi ha creato l'azzurro infinito
+     LA           RE
+e le stelle lucenti nel cielo?
+     SI-         SOL
+Chi ha creato la luna ed il sole?
+     LA
+Chi sostiene il peso del mondo?
+
+RE              MI-
+Chi ha vestito i fiori dei campi?
+     LA              RE
+Chi ha insegnato a volare agli uccelli?
+     SI-              SOL
+Chi depone la fresca rugiada
+sugli steli dell'erba al mattino?
+
+     RE       MI-
+Rit. Per te, figlio mio,
+     LA               RE
+per te ho fatto questo, amore mio;
+     SI-       FA#-
+tu, la mia immagine,
+     MI-     LA
+tu, la mia vita.
+
+RE              MI-
+Guarda l'ape che fabbrica il miele,
+     LA              RE
+la formica che cerca il suo cibo
+     SI-              SOL
+e la chioccia che guarda io pulcini
+     LA
+ed il ragno che tesse la tela.
+
+RE              MI-
+Guarda il chicco di grano che cresce,
+     LA              RE
+guarda i petali del pesco in fiore,
+     SI-              SOL
+guarda il corpo del bimbo che nasce
+     LA
+e l'amore dei suoi genitori.
+
+Rit.
+     RE       MI-
+Per te, figlio mio,
+     LA               RE
+per te ho fatto questo, amore mio;
+     SI-       FA#-
+tu, la mia immagine,
+     MI-     LA
+tu, la mia vita.`
+},
+
+{
+  id: "perche-la-vostra-gioia-sia-piena",
+  title: "Perche la vostra gioia sia piena",
+  categories: ["chiesa"],
+  liturgia: ["comunione"],
+  tempo: [],
+  content: `SOL RE MI- RE
+
+SOL       RE
+Perche, la vostra gioia sia piena
+MI-       DO
+Perche, la vostra gioia sia piena
+SOL       RE
+Perche, la vostra gioia sia piena
+MI-       DO
+Perche, la vostra gioia sia piena
+
+SOL                              RE
+Prendi tra le mani, prendi il mio Amore, donalo a chi soffre, nel suo dolore
+MI-                      DO
+vivi sulla strada, e il tuo destino, lascia che Dio guidi, guidi il tuo cammino.
+SOL                              RE
+Apri le tue mani dona la tua vita, non tenerla stretta tra le tue dita
+MI-                      DO
+ora tocca al cuore aprilo al mondo, gioca la tua vita e sia fino in fondo
+
+Rit.
+SOL       RE
+Perche, la vostra gioia sia piena
+MI-       DO
+Perche, la vostra gioia sia piena
+SOL       RE
+Perche, la vostra gioia sia piena
+MI-       DO
+Perche, la vostra gioia sia piena
+
+SOL                              RE
+Chiedi cio che e vero, ti sara dato, per vivere l'Amore Dio ci ha creato
+MI-                      DO
+resta unito a me vivendo le parole, se cosi farai sara cio che Lui vuole.
+
+Rit.
+SOL       RE
+Perche, la vostra gioia sia piena
+MI-       DO
+Perche, la vostra gioia sia piena
+SOL       RE
+Perche, la vostra gioia sia piena
+MI-       DO
+Perche, la vostra gioia sia piena
+
+SOL                              RE
+Sogno di Dio, da Lui sei nato, vita divina ti ha generato
+MI-                      DO
+se poi rimani nel mio Amore, vivra pienezza nel cuore.
+
+SOL       RE
+Perche, la vostra gioia sia piena
+MI-       DO
+Restate uniti a me nel profondo`
+},
+
+{
+  id: "perche-ti-amo",
+  title: "Perche ti amo",
+  categories: ["chiesa"],
+  liturgia: [],
+  tempo: [],
+  content: `RE-          DO
+Tra milioni di modi
+          SIb
+per dirmi: "Ti amo",
+          FA
+Dio hai scelto per me
+          SOL-
+e ero a te piu lontano.
+          FA
+Mi hai visto lottare,
+          DO
+sperare, soffrire,
+          FA   MI
+hai deciso di vivere qui
+e morire.
+
+RE-          DO
+Piu lontano per te,
+          SIb
+ma a me piu vicino,
+          FA
+uno in tutto con me,
+          SOL-
+con il mio destino.
+
+- . - SOL
+RIT. Mi hai visto piangere,
+     RE       MI-
+hai pianto con me.
+     nei guai fino al collo,
+     RE        DO
+tu nei guai, come me.
+     SOL
+Nell'assurdo il tuo grido:
+     LA-
+"Perche?"
+     RE
+Primavera che muore
+con te. (x2)
+
+RE-          DO
+In un vicolo cieco,
+          SIb
+tu cieco sei li,
+crolla il cielo di schianto,
+nello schianto sei li,
+
+RE-          DO
+E l'amore che unisce
+          SIb
+Amori lontani:
+
+- . - SOL
+Rit. Mi hai visto piangere,
+     RE       MI-
+hai pianto con me.
+     nei guai fino al collo,
+     RE        DO
+tu nei guai, come me.
+     SOL
+Nell'assurdo il tuo grido:
+     LA-
+"Perche?"
+     RE
+Primavera che nasce
+con te.`
+},
+
+{
+  id: "popoli-tutti",
+  title: "Popoli tutti",
+  categories: ["chiesa", "lode"],
+  liturgia: ["ingresso"],
+  tempo: [],
+  content: `intro: SOL RE LA RE
+
+     RE   SOL   RE     LA
+Popoli tutti, battete le mani,
+     SOL    RE       SOL    LA
+cantate al Signore con voci di gioia.
+     RE         SOL   RE     LA
+Grande e il tuo nome su tutta la terra,
+     SOL    RE    LA       RE
+a sua tenerezza per tutte le nazioni.
+SOL   RE LA   RE SOL   RE  LA       RE
+Alleluia - a, Alleluia - a, Alleluia - a, Alleluia - a
+
+FA#-   SI-
+Chi e come il Signore nostro Dio
+     SOL    LA     RE     RE7
+che siede nell'alto dei cieli
+     SOL    LA     FA#-  SI-
+e volge lo sguardo su tutta la terra.
+SOL    RE    LA4 LA
+Alleluia, alleluia.
+
+FA#-   SI-
+Chi e come il Signore nostro Dio
+     SOL    LA     RE     RE7
+che rialza con amore il povero
+     SOL    LA     FA#-        SI-
+per dargli onore in mezzo al suo popolo?
+SOL    RE    LA4 LA
+Alleluia, alleluia.`
+},
+
+{
+  id: "quale-gioia-mi-dissero",
+  title: "Quale gioia mi dissero",
+  categories: ["chiesa"],
+  liturgia: ["ingresso"],
+  tempo: [],
+  content: `  RE    LA     MI-    SOL
+Quale gioia mi dissero:
+          RE      LA          MI- SOL LA
+"Andremo  alla casa del Signore !"
+  RE    LA     MI-    SOL
+ora i piedi oh Gerusalemme
+     RE      LA        RE
+si fermano davanti a te
+
+     RE          LA    MI-    SOL     LA
+Ora Gerusalemme e ricostruita
+     RE      LA    MI-    SOL  LA
+come citta salda, forte ed unita.
+
+     RE      LA    MI-    SOL     LA
+Salgono insieme le tribu di Jahve
+     RE          LA    MI-    SOL     LA
+per lodare il nome del Signore d'Israele.
+
+     RE          LA    MI-    SOL     LA
+Domandate pace per Gerusalemme
+     RE          LA    MI-    SOL     LA
+sia pace a chi ti ama, pace alle tue mura.
+
+     RE                LA    MI-       SOL     LA
+Noi siamo il tuo popolo, Egli e il nostro Dio
+     RE      LA   MI- SOL LA
+possa rinnovarci la felicita.`
+},
+
+{
+  id: "questa-e-la-mia-fede",
+  title: "Questa e la mia fede",
+  categories: ["chiesa"],
+  liturgia: ["finale"],
+  tempo: [],
+  content: `  Re       fa# -    sol       re
+Questa e la mia fede, proclamarti mio re,
+  si-   re    sol7     la
+unico Dio, grande Signore.
+  re       fa#-    sol    fa#
+Questa e la speranza so che risorgero
+  sol     la    re
+e in Te  dimorero.  (2 volte)
+
+re-                SIb
+Cantero la gioia di esser figlio, cantero
+          fa         sib    do
+che Tu non abbandoni, non tradisci mai.
+  Re-                   sib
+Dammi sempre la tua grazia e in Te dimorero
+     fa         sib do      la
+per adorarti, per servirti in verita, mio re.
+
+Rit.
+  Re       fa# -    sol       re
+Questa e la mia fede, proclamarti mio re,
+  si-   re    sol7     la
+unico Dio, grande Signore.
+  re       fa#-    sol    fa#
+Questa e la speranza so che risorgero
+  sol     la    re
+e in Te  dimorero.  (2 volte)
+
+re-                SIb
+Cantero che solo Tu sei vita e verita,
+          fa         sib    do
+ che sei salvezza, che sei vera liberta.
+Re-                   sib
+Io porro la mia fiducia in Te che sei la via,
+     fa         sib do      la
+camminero nella tua santa volonta, mio re.`
+},
+
+{
+  id: "questo-e-il-giorno-dell-alleanza",
+  title: "Questo e il giorno dell'alleanza",
+  categories: ["chiesa"],
+  liturgia: ["ingresso"],
+  tempo: ["matrimonio"],
+  content: `intro: LA- DO SOL FA SOL
+
+     LA-          DO     SOL
+Questo e il giorno dell'alleanza
+               RE-     MI- FA
+e il mistero di un grande amore
+     LA-
+Benedetto sei Tu
+          DO          SOL
+Signore che per primo hai amato noi
+
+     FA   LA-    DO    MI-
+E' grande come il cielo l'amore del Signore
+     FA  RE-       SOL
+per ogni creatura e fonte della vita
+     FA   LA-    DO    MI-
+Abbraccia l'universo l'amore del Signore
+     FA  RE-       SOL4 SOL
+per ogni figlio suo e grazia infinita
+
+Rit.
+     LA-          DO     SOL
+Questo e il giorno dell'alleanza
+               RE-     MI- FA
+e il mistero di un grande amore
+     LA-
+Benedetto sei Tu
+          DO          SOL
+Signore che per primo hai amato noi
+
+     FA   LA-    DO    MI-
+E' forte come il bene l'amore del Signore
+     FA  RE-       SOL
+per ogni suo fedele e dono di salvezza
+
+Rit.
+     LA-          DO     SOL
+Questo e il giorno dell'alleanza
+               RE-     MI- FA
+e il mistero di un grande amore
+     LA-
+Benedetto sei Tu
+          DO          SOL
+Signore che per primo hai amato noi
+
+     FA   LA-    DO    MI-
+E' puro come l'oro l'amore del Signore
+     FA  RE-       SOL
+per ogni nostro giorno e luce che non muore
+
+Rit.
+     LA-          DO     SOL
+Questo e il giorno dell'alleanza
+               RE-     MI- FA
+e il mistero di un grande amore
+     LA-
+Benedetto sei Tu
+          DO          SOL
+Signore che per primo hai amato noi
+
+finale: FA DO LA- SOL FA SOL DO`
+},
+
+{
+  id: "rallegriamoci",
+  title: "Rallegriamoci",
+  categories: ["chiesa"],
+  liturgia: ["ingresso"],
+  tempo: ["natale"],
+  content: `RE    SOL           RE        LA
+Rallegriamoci, non c'e spazio alla tristezza in questo giorno
+  RE   SOL         RE        LA
+Rallegriamoci, e la vita che distrugge ogni paura.
+
+     FA#-  SOL              RE        LA
+Rallegriamoci, che si compie in questo giorno la promessa
+  SI-  SOL        RE       LA        RE SOL RE
+Rallegriamoci, ogni uomo lo vedra: la salvezza di Dio
+
+RE     SOL LA   RE      SOL LA
+Gloria a Te Emmanuele, Gloria a Te Figlio di Dio.
+SI-       SOL         RE       LA       RE
+Gloria a Te Cristo Signore che nasci per noi e torna la gioia
+
+RE    SOL           RE        LA
+Rallegriamoci, tutti i popoli del mondo lo vedranno
+
+     FA#-  SOL              RE        LA
+Rallegriamoci, nella luce del suo regno in cui viviamo,
+  SI-  SOL        RE       LA        RE SOL RE
+rallegriamoci, siamo tempio vivo suo, siamo chiesa di Dio.`
+},
+
+{
+  id: "re-dei-re",
+  title: "Re dei Re",
+  categories: ["chiesa", "lode"],
+  liturgia: ["ingresso"],
+  tempo: [],
+  content: `INTRO: MI- DO SOL RE (x2)
+
+MI-       DO       SOL     RE     MI-     DO       SOL     RE
+Hai sollevato i nostri volti dalla polvere, le nostre colpe hai portato su di Te
+MI-       DO       SOL     RE      MI- DO SOL RE
+Signore ti sei fatto uomo in tutto come noi, per a - mo - re
+
+MI-           DO          SOL              RE
+Figlio dell'Altissimo, povero tra i poveri, vieni a dimorare tra noi
+MI-           DO          SOL              RE
+Dio dell'impossibile, Re di tutti i secoli vieni nella tua maesta
+MI-   DO   SOL              RE
+Re dei re, i popoli ti acclamano, i cieli ti proclamano
+MI-   DO  SOL          RE
+Re dei re, luce degli uomini regna col tuo amore tra noi
+
+MI- DO SOL RE4 RE  MI- DO SOL RE
+Tua e la glo - ria per se - mpre (x2)
+
+Rit.
+MI-           DO          SOL              RE
+Figlio dell'Altissimo, povero tra i poveri, vieni a dimorare tra noi
+MI-           DO          SOL              RE
+Dio dell'impossibile, Re di tutti i secoli vieni nella tua maesta
+MI-   DO   SOL              RE
+Re dei re, i popoli ti acclamano, i cieli ti proclamano
+MI-   DO  SOL          RE
+Re dei re, luce degli uomini regna col tuo amore tra noi`
+},
+
+{
+  id: "resta-accanto-a-me",
+  title: "Resta accanto a me",
+  categories: ["chiesa"],
+  liturgia: ["comunione"],
+  tempo: [],
+  content: `RE  LA  SOL     RE   MI-  FA#-  SOL        LA
+Ora vado sulla mia strada , con l'amore tuo che mi guida.
+RE  LA  SOL     RE   SOL  LA        RE
+O Signore ovunque io vada, resta accanto a me.
+RE  LA  SOL     RE   MI-  FA#-  SOL        LA
+Io ti prego stammi vicino, ogni passo del mio cammino.
+RE  LA  SOL     RE   SOL  LA        RE
+Ogni notte ogni mattina, resta accanto a me.
+
+     LA           SOL           SI-
+Il Tuo sguardo puro sia luce per me
+     LA           SOL          RE
+e la Tua parola sia voce per me;
+     SOL       LA              RE  LA     RE
+che io trovi il senso del mio andare solo in Te.
+
+Rit.
+RE  LA  SOL     RE   MI-  FA#-  SOL        LA
+Ora vado sulla mia strada , con l'amore tuo che mi guida.
+RE  LA  SOL     RE   SOL  LA        RE
+O Signore ovunque io vada, resta accanto a me.
+RE  LA  SOL     RE   MI-  FA#-  SOL        LA
+Io ti prego stammi vicino, ogni passo del mio cammino.
+RE  LA  SOL     RE   SOL  LA        RE
+Ogni notte ogni mattina, resta accanto a me.
+
+     LA           SOL           SI-
+Fa cha chi mi guarda non veda che Te.
+     LA           SOL          RE
+Fa che chi mi ascolta non senta che Te.
+     SOL       LA              RE  LA RE
+E chi pensa a me, fa cha nel cuore pensi a Te,
+
+Rit.
+RE  LA  SOL     RE   MI-  FA#-  SOL        LA
+Ora vado sulla mia strada , con l'amore tuo che mi guida.
+RE  LA  SOL     RE   SOL  LA        RE
+O Signore ovunque io vada, resta accanto a me.
+RE  LA  SOL     RE   MI-  FA#-  SOL        LA
+Io ti prego stammi vicino, ogni passo del mio cammino.
+RE  LA  SOL     RE   SOL  LA        RE
+Ogni notte ogni mattina, resta accanto a me.  (2 volte)`
+},
+
+{
+  id: "resta-qui-con-noi",
+  title: "Resta qui con noi",
+  categories: ["chiesa"],
+  liturgia: ["comunione"],
+  tempo: [],
+  content: `RE               SOL
+Le ombre si distendono, scende ormai la sera
+RE                   MI-
+e s'allontanano, dietro i monti, i riflessi
+     SI-      FA#-        MI        SOL
+di un giorno che non finira, di un giorno che ora correra sempre,
+RE       FA#-      SOL       MI-
+perche sappiamo che una nuova vita
+          RE      SOL       LA4 LA
+da qui e partita e mai piu si fermera.
+
+     RE          FA#-  SOL       RE
+Resta qui con noi, il sole scende gia,
+     MI-     LA      SOL    LA       RE  RE4
+resta qui con noi, Signore e sera ormai.
+     RE          FA#-  SOL       RE
+Resta qui con noi, il sole scende gia,
+     MI-     LA      SOL    LA       RE RE4
+se tu sei fra noi, la notte non verra.
+
+     RE               SOL
+S'allarga verso il mare il tuo cerchio d'onda,
+RE       FA#-      SOL       MI-
+come una fiamma che dove passa brucia,
+          RE      SOL            LA4 LA
+cosi il tuo amore tutto il mondo invadeera.
+
+     RE               SOL
+Davanti a noi l'umanita lotta, soffre e spera,
+RE       FA#-      SOL       MI-
+Con te saremo sorgente d'acqua pura,
+          RE      SOL            LA4 LA
+con te fra noi il deserto fiorira`
+},
+
+{
+  id: "resurrezione",
+  title: "Resurrezione",
+  categories: ["chiesa"],
+  liturgia: ["ingresso", "finale"],
+  tempo: ["pasquale"],
+  content: `INTRO: RE SOL RE SOL
+
+RE       SOL
+Che gioia ci hai dato
+RE       SOL
+Signore del cielo
+RE       SOL    LA4 LA
+Signore del grande universo.
+RE       SOL
+Che gioia ci hai dato
+RE     SOL
+vestito di luce
+RE    LA   SI-  SOL
+vestito di gioia infinita,
+RE    LA   SOL  RE
+vestito di gioia infinita
+
+RE            SOL      RE
+Chi cercate, donne, quaggiu,
+          SOL      RE
+chi cercate, donne, quaggiu?
+     SOL           LA4 LA
+Quello che era morto non e qui,
+RE       SOL
+e risorto, si, come aveva detto
+RE     LA
+a tutti che
+SI-      SOL
+e Risorto Lui,
+SOL       RE
+e Risorto Lui.
+
+RE         SOL       RE
+Tu hai vinto il mondo, Gesu,
+     SOL  LA4 LA
+liberiamo la felicita
+RE       SOL
+e la morte, no, non esiste piu
+RE     LA
+tutti noi,
+SI-      SOL
+uomini con Te,
+SOL       RE
+uomini con Te.`
+},
+
+{
+  id: "salve-regina",
+  title: "Salve Regina",
+  categories: ["chiesa", "mariano"],
+  liturgia: [],
+  tempo: [],
+  content: `Sol     Re   Do Si La       Sol
+SALVE REGINA, MADRE DI MISERICORDIA
+               Re           Do        Sol
+VITA, DOLCEZZA, SPERANZA NOSTRA, SALVE!
+               Re    7
+SALVE REGINA!   (x2)
+     Sol    La-   Re        Sol
+A te ricorriamo, esuli figli di Eva.
+     Si-         Do
+A te sospiriamo, piangenti
+               Re
+in questa valle di lacrime.
+     Sol       La-   Re              Sol
+Avvocata nostra, volgi a noi gli occhi tuoi.
+                    Si-
+Mostraci, dopo quest'esilio,
+          Do           Re
+il frutto del tuo seno, Gesu.
+Sol        Re   Do Si La          Sol
+SALVE REGINA, MADRE DI MISERICORDIA
+               Re           Do          Sol
+O CLEMENTE, O PIA, O DOLCE VERGINE MARIA.
+               Re    7
+SALVE REGINA!
+Sol        Re   Do Si La Sol
+SALVE REGINA, SALVE,
+Do Si La Sol
+SALVE!`
+},
+
+{
+  id: "san-francesco",
+  title: "San Francesco",
+  categories: ["chiesa", "francescano"],
+  liturgia: ["finale"],
+  tempo: [],
+  content: `DO
+O Signore fa di me uno strumento
+FA                  LA7
+fa di me uno strumento della tua pace,
+RE-       FA-       SOL
+dov'e odio che io porti l'amore
+LAb    SOL    DO  FA    SOL
+dov'e offesa che io porti il perdono
+DO
+dov'e dubbio che io porti la fede
+DO7    FA         LA7
+dov'e discordia che io porti l'unione
+RE-    SOL   MI-       LA7
+dov'e errore che io porti la verita
+RE-    SOL   DO        FA7
+a chi dispera che io porti la speranza.
+
+FA       LA7      RE-       DO7
+O maestro dammi Tu un cuore grande
+SIb          SOL-       DO
+che sia goccia di rugiada per il mondo
+SIb                DO
+che sia voce di speranza
+LA-    RE-    SIb          DO        FA7
+che sia un buon mattino per il giorno di ogni uomo
+SIb    DO     LA-          RE-
+e con gli ultimi del mondo sia il mo passo
+SIb    DO    FA    SOL-    DO
+lieto nella poverta, nella poverta.
+
+DO
+O Signore fa di me il tuo canto
+FA                  LA7
+fa di me il tuo canto di pace
+RE-       FA-       SOL
+a chi e triste che io porti la gioia
+LAb    SOL    DO  FA    SOL
+a chi e nel buio che io porti la luce.
+DO
+E' donando che si ama la vita
+DO7    FA         LA7
+e servendo che si vive la gioia
+RE-    SOL   MI-       LA7
+perdonando che si trova il perdono
+RE-    SOL   DO        FA7
+e morendo che si vive in eterno.
+
+FA       LA7      RE-       DO7
+O maestro dammi Tu un cuore grande
+SIb          SOL-       DO
+che sia goccia di rugiada per il mondo
+SIb                DO
+che sia voce di speranza
+LA-    RE-    SIb          DO        FA7
+che sia un buon mattino per il giorno di ogni uomo
+SIb    DO     LA-          RE-
+e con gli ultimi del mondo sia il mo passo
+SIb    DO    FA    SOL-    DO
+lieto nella poverta, nella poverta.`
+},
+
+{
+  id: "santo-bibione",
+  title: "Santo (Bibione)",
+  categories: ["chiesa"],
+  liturgia: ["santo"],
+  tempo: [],
+  content: `INTRO: RE RE4 RE RE4
+
+RE
+Santo, Santo, Santo
+RE4
+Santo e il Signore
+LA           SOL
+Il Signore Dio dell'universo
+RE
+I cieli e la terra
+MI        LA4    LA
+sono pieni della Tua gloria
+
+     SI-   SOL      LA
+Osanna, osanna nei cieli
+     SI-   SOL    LA     SOL
+Osanna, osanna nell'alto dei cieli
+
+RE RE4 RE RE4
+
+RE
+Santo, Santo, Santo
+RE4
+Santo e il Signore
+LA           SOL
+il Signore Dio dell'universo
+RE    MI        LA4    LA
+Benetto e, chi viene in nome del Signore
+
+     SI-   SOL      LA
+Osanna, osanna nei cieli
+     SI-   SOL    LA     SOL
+Osanna, osanna nell'alto dei cieli    (2 volte)
+
+FINALE: RE`
+},
+
+{
+  id: "santo-dei-frati",
+  title: "Santo (dei Frati)",
+  categories: ["chiesa"],
+  liturgia: ["santo"],
+  tempo: [],
+  content: `MI-  RE      LA-  MI-      RE        MI-
+Santo santo-o, santo santo-o santo e il Signore
+MI-  RE      LA-  MI-      RE        MI-   DO    RE  MI-
+Santo santo-o, santo santo-o santo e il Signore Dio dell'universo.
+
+MI-     RE       DO     (RE)  MI-
+I cieli e la terra sono pieni della tua gloria,
+MI-     RE       DO     (RE)  MI-
+I cieli e la terra sono pieni della tua gloria.
+
+MI-        RE       DO        SI7
+Osanna osanna osanna-a osanna osanna-a
+MI-        RE       DO        SI7
+osanna osanna osanna-a nell'alto dei cieli!
+
+MI-  RE     LA-  MI-      RE        MI-
+Benedetto e, benedetto e, e colui che viene
+MI-  RE     LA-  MI-      RE        MI-    DO    RE    MI-
+Benedetto e, benedetto e, e colui che viene nel nome del Signore.
+
+MI-        RE       DO        SI7
+Osanna osanna osanna-a osanna osanna-a
+MI-        RE       DO        SI7
+osanna osanna osanna-a nell'alto dei cieli!
+
+MI-  RE      LA-  MI-      RE        MI-   DO    RE  MI-
+Santo santo-o, santo santo-o santo e il Signore Dio dell'universo.`
+},
+
+{
+  id: "santo-draghi",
+  title: "Santo (Draghi)",
+  categories: ["chiesa"],
+  liturgia: ["santo"],
+  tempo: [],
+  content: `SOL      RE      MI-
+Santo, Santo, Santo
+     DO    SOL      RE4    RE
+E il Signore Dio dell'univer - so.  2V
+  SOL      RE       DO
+I cieli e la terra son pieni
+RE       SOL  RE DO   RE
+della tua Glo - o- ria - a
+  SOL    RE       DO
+I cieli e la terra son pieni
+RE       SOL   MI7
+della tua Glo - ria
+
+  LA-  RE    LA-  RE           SOL   RE
+Osanna, Osanna nell'alto dei cieli
+               MI-      DO
+nell'alto dei cieli
+               SOL  RE 7
+nell'alto dei cie - li
+
+     SOL     RE        DO       RE
+Benedetto e Colui che viene nel nome del
+  SOL  RE DO   RE
+Signo - o - re - e.
+
+  LA-  RE    LA-  RE           SOL   RE
+Osanna, Osanna nell'alto dei cieli
+               MI-      DO
+nell'alto dei cieli
+               SOL  RE 7
+nell'alto dei cie - li`
+},
+
+{
+  id: "santo-gen-verde",
+  title: "Santo (Gen Verde)",
+  categories: ["chiesa"],
+  liturgia: ["santo"],
+  tempo: [],
+  content: `Sol Do  Sol Do  Sol Re  Sol
+S a n t o  S a n t o   S a n t o
+Sol Do  Sol Do  Sol Re  Sol
+S a n t o  S a n t o   S a n t o
+
+  Do         Sol
+Il Signore Dio dell' universo
+  Do         Sol
+Il Signore Dio dell'universo
+  Do    Sol
+I cieli e la terra
+     Re       Sol Sol7
+sono pieni della tua gloria
+
+  Do   Sol    Re    Sol Sol7
+Osanna Osanna nell'alto dei cieli
+  Do   Sol    Re    Sol
+Osanna Osanna nell'alto dei cieli
+
+Sol Do  Sol Do  Sol Re  Sol
+S a n t o  S a n t o   S a n t o
+
+  Do         Sol
+Benedetto colui che viene
+  Do         Sol
+nel nome del Signore
+
+  Do   Sol    Re    Sol Sol7
+Osanna Osanna nell'alto dei cieli
+  Do   Sol    Re    Sol
+Osanna Osanna nell'alto dei cieli
+
+Sol Do  Sol Do  Sol Re  Sol
+S a n t o  S a n t o   S a n t o`
+},
+
+{
+  id: "santo-giombini",
+  title: "Santo (Giombini)",
+  categories: ["chiesa"],
+  liturgia: ["santo"],
+  tempo: [],
+  content: `DO
+Santo, Santo, Santo
+FA             DO       FA
+Santo, santo, santo il Signore Dio dell'universo
+Sib FA  SOL- DO FA  SIb  FA     DO FA
+I cieli e la terra sono pieni della tua gloria.
+
+DO         DO4
+Osanna, osanna, osanna
+SIb    FA     SOL- DO FA
+Osanna nell'alto dei cieli
+
+     RE-       LA-    SIb     LA
+Benedetto Colui che viene nel nome del Signore.
+
+DO         DO4
+Osanna, osanna, osanna
+SIb    FA     SOL- DO FA
+Osanna nell'alto dei cieli`
+},
+
+{
+  id: "santo-il-signore-nostro-re",
+  title: "Santo il Signore nostro Re",
+  categories: ["chiesa"],
+  liturgia: ["santo"],
+  tempo: [],
+  content: `intro: LA-
+
+LA-        SOL       DO         SOL
+SANTO SANTO SANTO IL SIGNORE NOSTRO RE
+FA       SOL
+Dio dell 'universo.
+  MI7          LA-    SOL    DO
+I cieli e la terra sono pieni di Te
+  DO       FA    SOL   FA    SOL
+I cieli e la terra sono pieni di Te, di Te.
+
+  DO    SOL     FA      SOL
+Osanna Osanna nell'alto dei cieli
+DO    SOL     LA-     SOL
+Osanna Osanna nell'alto dei cieli (X2)
+
+LA-        SOL       DO         SOL
+SANTO SANTO SANTO IL SIGNORE NOSTRO RE
+FA       SOL
+Dio dell 'universo
+  MI7          LA-    SOL    DO
+Benedetto Colui che viene nel Signor
+
+  DO    SOL     FA      SOL
+Osanna Osanna nell'alto dei cieli (X2)
+
+FA      DO     SOL FA  DO
+OSANNA NELL'ALTO DEI CIELI (x2)`
+},
+
+{
+  id: "santo-jahve",
+  title: "Santo (Jahve)",
+  categories: ["chiesa"],
+  liturgia: ["santo"],
+  tempo: [],
+  content: `intro: MI- SI MI-
+
+MI-
+Santo Santo Santo
+     SI
+il popolo proclama
+Santo Santo Santo
+     MI-
+il Signore nostro Re!
+
+     MI
+I cieli e la terra
+     LA-
+sono pieni di Te
+     MI-
+Santo Santo Santo
+SI          MI-
+il Signore nostro Re
+LA-.        MI-
+Santo Santo Santo
+SI          MI-
+il Signore nostro Re
+
+[STOP CHITARRE]    SI
+Osanna Osanna Osanna e
+               MI-
+Osanna Osanna Osanna e!
+               SI
+Osanna Osanna Osanna e
+               MI-
+Osanna Osanna Osanna e!
+
+     LA- MI- SI   MI-
+Osanna e, oh Osanna e
+     LA- MI- SI   MI-
+Osanna e, oh, Osanna e!
+
+MI-
+Benedetto colui che viene
+          SI
+nel nome del Signore
+Benedetto colui che viene
+          MI-
+nel nome di Jahve!
+
+     MI
+I cieli e la terra
+     LA-
+sono pieni di Te
+
+[STOP CHITARRE]    SI
+Osanna Osanna Osanna e
+               MI-
+Osanna Osanna Osanna e!
+               SI
+Osanna Osanna Osanna e
+               MI-
+Osanna Osanna Osanna e!
+
+     LA- MI- SI   MI-
+Osanna e, oh Osanna e
+     LA- MI- SI   MI-
+Osanna e, oh, Osanna e!
+
+finale: MI-`
+},
+
+{
+  id: "santo-zaire",
+  title: "Santo (Zaire)",
+  categories: ["chiesa"],
+  liturgia: ["santo"],
+  tempo: [],
+  content: `RE        SOL      RE LA  RE
+Santo-o-o Santo, Osa-a-nna
+RE        SOL      RE LA  RE
+Santo-o-o Santo, Osa-a-nna
+
+RE      SOL     RE     SOL     LA         RE
+Osanna eh! Osanna eh! Osanna a Cristo Signor, Osanna e-eh!
+RE      SOL     RE     SOL     LA         RE
+Osanna eh! Osanna eh! Osanna a Cristo Signor!
+
+     RE               SOL        RE LA    RE
+I cieli e la terra o Signore, sono pieni di te
+     RE               SOL        RE LA    RE
+I cieli e la terra o Signore, sono pieni di te
+
+Osanna eh! Osanna eh! Osanna a Cristo Signor!
+
+     RE            SOL        RE    LA       RE
+Benedetto colui che viene, nel nome del Signor
+     RE            SOL        RE    LA       RE
+Benedetto colui che viene, nel nome del Signor
+
+Osanna eh! Osanna eh! Osanna a Cristo Signor!`
+},
+
+{
+  id: "scusa-signore",
+  title: "Scusa Signore",
+  categories: ["chiesa"],
+  liturgia: ["comunione"],
+  tempo: [],
+  content: `SOL     RE7          SOL
+Scusa, Signore, se bussiamo
+     DO           SOL     RE7
+alle porte del tuo cuore, siamo noi.
+SOL     RE7          SOL
+Scusa, Signore, se chiediamo,
+     DO           SOL     RE7
+mendicanti dell'amore, un ristoro da Te.
+
+     SOL      LA-          DO       SOL
+Cosi la foglia quando e stanca cade giu,
+          MI-     SI-       DO          RE
+ ma poi la terra ha una vita sempre in piu,
+     SOL      LA-          DO       SOL
+cosi la gente quando e stanca vuole Te,
+     MI-     SI-       DO          RE7
+e Tu, Signore hai una vita sempre in piu,
+     SOL
+sempre in piu.
+
+SOL     RE7          SOL
+Scusa, Signore, se entriamo
+     DO           SOL     RE7
+nella reggia della luce, siamo noi.
+
+Rit.
+     SOL      LA-          DO       SOL
+Cosi la foglia quando e stanca cade giu,
+          MI-     SI-       DO          RE
+ ma poi la terra ha una vita sempre in piu,
+     SOL      LA-          DO       SOL
+cosi la gente quando e stanca vuole Te,
+     MI-     SI-       DO          RE7
+e Tu, Signore hai una vita sempre in piu,
+     SOL
+sempre in piu.
+
+SOL     RE7          SOL
+Scusa, Signore, quando usciamo
+     DO           SOL     RE7
+sulla strada del tuo amore, siamo noi.
+
+Rit.
+     SOL      LA-          DO       SOL
+Cosi la foglia quando e stanca cade giu,
+          MI-     SI-       DO          RE
+ ma poi la terra ha una vita sempre in piu,
+     SOL      LA-          DO       SOL
+cosi la gente quando e stanca vuole Te,
+     MI-     SI-       DO          RE7
+e Tu, Signore hai una vita sempre in piu,
+     SOL
+sempre in piu.`
+},
+
+{
+  id: "se-m-accogli",
+  title: "Se m'accogli",
+  categories: ["chiesa"],
+  liturgia: ["offertorio", "comunione"],
+  tempo: [],
+  content: `DO          FA         MI-       LA-
+Tra le mani non ho niente, spero che mi accoglierai:
+DO          FA         SOL4 SOL
+chiedo solo di restare accanto a Te.
+DO          FA         MI-       LA-
+sono ricco solamente dell'amore che mi dai:
+DO          FA         SOL4 SOL
+e per quelli che non l'hanno avuto mai.
+
+     DO        MI7      LA-        DO7
+Se m'accogli, mio Signore, altro non ti chiedero:
+     FA           RE-       MI7       LA-
+e per sempre la tua strada la mia strada restera!
+     FA          DO       FA      RE-      MI
+Nella gioia, nel dolore, fino a quando tu vorrai,
+     LA-       SOL        FA DO
+con la mano nella tua camminero.
+
+DO          FA         MI-       LA-
+Io Ti prego con il cuore, so che Tu mi ascolterai:
+DO          FA         SOL4 SOL
+rendi forte la mia fede piu che mai.
+DO          FA         MI-       LA-
+Tieni accesa la mia luce fino al giorno che Tu sai:
+DO          FA         SOL4 SOL
+con i miei fratelli incontro a Te verro.
+
+Rit.
+     DO        MI7      LA-        DO7
+Se m'accogli, mio Signore, altro non ti chiedero:
+     FA           RE-       MI7       LA-
+e per sempre la tua strada la mia strada restera!
+     FA          DO       FA      RE-      MI
+Nella gioia, nel dolore, fino a quando tu vorrai,
+     LA-       SOL        FA DO
+con la mano nella tua camminero.`
+},
+
+{
+  id: "se-vuoi",
+  title: "Se vuoi",
+  categories: ["chiesa"],
+  liturgia: ["offertorio"],
+  tempo: [],
+  content: `     RE   FA#-  SOL          LA
+Se vuoi puoi venire con me
+     RE   FA#-  SOL          LA
+se vuoi lascia tutto di te
+     RE   FA#-       SOL          LA
+se vuoi la tua sola speranza saro
+     RE   FA#-  SOL       LA       RE
+se vuoi a me per sempre ti leghero
+
+SOL     LA         RE  FA#-  SOL    LA         RE
+Il Signore e mio pastore, nulla mai mi manchera,
+SOL     LA        RE FA#-  SOL    LA       RE FA#-
+custodira la tua vita, come bene prezioso.
+
+Rit.
+     RE   FA#-  SOL          LA
+Se vuoi puoi venire con me
+     RE   FA#-  SOL          LA
+se vuoi lascia tutto di te
+     RE   FA#-       SOL          LA
+se vuoi la tua sola speranza saro
+     RE   FA#-  SOL       LA       RE
+se vuoi a me per sempre ti leghero
+
+SOL     LA         RE  FA#-  SOL    LA         RE
+Se dovessi camminare per una strada oscura,
+SOL     LA      RE FA#-  SOL    LA       RE FA#-
+io non avro paura se tu sarai con me.
+
+Rit.
+     RE   FA#-  SOL          LA
+Se vuoi puoi venire con me
+     RE   FA#-  SOL          LA
+se vuoi lascia tutto di te
+     RE   FA#-       SOL          LA
+se vuoi la tua sola speranza saro
+     RE   FA#-  SOL       LA       RE
+se vuoi a me per sempre ti leghero
+
+SOL     LA         RE  FA#-  SOL    LA              RE
+Gioia e grazia saranno mie compagne nel cammino,
+SOL     LA         RE  FA#-  SOL    LA       RE FA#-
+io vivro con il Signore per tutta la mia vita`
+},
+
+{
+  id: "segni-del-tuo-amore",
+  title: "Segni del tuo amore",
+  categories: ["chiesa"],
+  liturgia: ["offertorio"],
+  tempo: ["ordinario", "pasquale"],
+  content: `intro: DO RE- DO RE- DO
+
+DO              RE- DO
+Mille e mille grani nelle spighe d'oro
+DO RE- DO
+DO              RE- DO
+mandano fragranza e danno gioia al cuore,
+DO RE- DO
+DO              RE- DO
+quando, macinati, fanno un pane solo:
+DO RE- DO
+DO              RE- DO
+pane quotidiano, dono tuo, Signore.
+
+SOL                    FA DO
+Ecco il pane e il vino, segni del tuo amore.
+SOL                    FA DO
+Ecco questa offerta, accoglila Signore:
+FA          SOL            DO
+tu di mille e mille cuori fai un cuore solo,
+          SOL
+un corpo solo in te
+     FA       SOL
+e il Figlio tuo verra, vivra
+          DO
+ancora in mezzo a noi.
+
+DO              RE- DO
+Mille grappoli maturi sotto il sole,
+DO RE- DO
+DO              RE- DO
+festa della terra, donano vigore,
+DO RE- DO
+DO              RE- DO
+quando da ogni perla stilla il vino nuovo:
+DO RE- DO
+DO              RE- DO
+vino della gioia, dono tuo, Signore.
+
+Rit.
+SOL                    FA DO
+Ecco il pane e il vino, segni del tuo amore.
+SOL                    FA DO
+Ecco questa offerta, accoglila Signore:
+FA          SOL            DO
+tu di mille e mille cuori fai un cuore solo,
+          SOL
+un corpo solo in te
+     FA       SOL
+e il Figlio tuo verra, vivra
+          DO
+ancora in mezzo a noi.
+
+finale: DO RE- DO RE- DO`
+},
+
+{
+  id: "servo-per-amore",
+  title: "Servo per amore",
+  categories: ["chiesa"],
+  liturgia: ["offertorio", "finale"],
+  tempo: [],
+  content: `LA- RE-                  DO FA
+Una notte di sudore sulla barca in mezzo al mare
+     SOL DO          MI- LA-      FA SIb      LA- RE-
+e mentre il cielo s'imbianca gia tu guardi le tue reti vuote.
+     DO FA               SOL DO          DO FA
+Ma la voce che ti chiama un altro mare ti mostrera
+     FA SIb      DO FA      SOL- SIb  FA
+e sulle rive di ogni cuore le tue reti getterai.
+
+LA-          DO
+Offri la vita tua
+     SOL DO   MI- LA-    FA SIb
+come Maria ai piedi della croce
+LA-   DO           SOL  DO
+e sarai servo di ogni uomo,
+DO        FA  SIb
+servo per amore,
+DO         RE-  SOL-  SIb  FA
+sacerdote dell'umanita.
+
+LA-                              FA
+Avanzavi nel silenzio fra le lacrime e speravi
+     SOL   DO       MI- LA-    FA  SIb          LA-
+che il seme sparso davanti a te cadesse sulla buona terra.
+  DO            SOL  DO            FA
+Ora il cuore tuo e in festa perche il grano biondeggia ormai
+  FA SIb       DO   RE-  SOL- SIb FA  DO  FA
+e maturato sotto il sole, puoi riporlo nei granai.
+
+Rit.
+LA-          DO
+Offri la vita tua
+     SOL DO   MI- LA-    FA SIb
+come Maria ai piedi della croce
+LA-   DO           SOL  DO
+e sarai servo di ogni uomo,
+DO        FA  SIb
+servo per amore,
+DO         RE-  SOL-  SIb  FA
+sacerdote dell'umanita.`
+},
+
+{
+  id: "sfolgora-il-sole-di-pasqua",
+  title: "Sfolgora il sole di Pasqua",
+  categories: ["chiesa"],
+  liturgia: ["ingresso", "finale"],
+  tempo: ["pasquale"],
+  content: `intro: FA SIb FA SIb DO
+
+RE-   DO    SIb  DO
+Sfolgora il sole di Pasqua,
+  FA    SOL-   LA4 LA
+risuona il cielo di canti,
+RE-   SIb     FA DO
+esulta di gioia la terra:
+  SIb     SOL-   LA4 LA
+il Signore e risorto da morte.
+
+RE-   DO    SIb  DO
+Dagli abissi del nulla
+FA    SOL-   LA4 LA
+Cristo Gesu, il Signore,
+RE-  SIb     FA DO
+vittorioso ritorna
+  SIb     SOL-   LA4 LA
+con i santi padri di un tempo.
+
+     SIb DO FA    SIb DO FA
+Allelu    ia! Allelu    ia!
+     SIb DO FA    SIb DO FA
+Allelu    ia! Allelu    ia!
+
+RE-  DO       SIb  DO
+O Gesu, re immortale,
+  FA    SOL-   LA4 LA
+unisci alla tua vittoria
+RE-   SIb     FA DO
+anche noi, tuoi discepoli,
+  SIb     SOL-   LA4 LA
+nel battesimo un giorno rinati.
+
+RE-     DO      SIb  DO
+Irradia sulla tua Chiesa,
+FA      SOL-   LA4 LA
+pegno d'amore e di pace,
+RE-  SIb     FA DO
+luce della tua Pasqua,
+  SIb     SOL-   LA4 LA
+la certezza d'averti fra noi.
+
+     SIb DO FA    SIb DO FA
+Allelu    ia! Allelu    ia!
+
+finale: FA SIb FA SIb DO FA`
+},
+
+{
+  id: "siamo-insieme",
+  title: "Siamo insieme (Accordiamoci)",
+  categories: ["scout"],
+  liturgia: [],
+  tempo: [],
+  content: `SOL
+Siamo insieme,
+          DO  SOL
+e non sappiamo perche,
+          DO
+ognuno col suo canto
+     SOL  DO MI-
+nel cuore.
+     RE       DO
+Ma se ci accordiamo,
+          LA-
+la mia voce
+  DO    RE    SOL
+la tua incontrera.
+
+               RE      MI-
+RIT. Siamo un canto a piu voci,
+          DO    SOL RE   DO RE SOL
+un'unica melodia,
+               RE      MI-
+Siamo un canto a piu voci,
+          DO    SOL RE   DO RE SOL DO
+un'unica melodia,
+          SOL       RE
+e la nostra armonia
+          DO    RE    SOL       RE
+e la gioia di cantare con te.
+
+SOL
+Ora e tempo,
+     DO  SOL
+sintonizzati, dai,
+questa volta
+     DO       SOL DO MI-
+non restare a guardare,
+     RE     DO
+e se ci accordiamo
+          LA-  DO     RE
+la mia vita la tua incontrera.`
+},
+
+{
+  id: "signore-della-danza",
+  title: "Signore della danza",
+  categories: ["chiesa", "scout"],
+  liturgia: ["finale"],
+  tempo: [],
+  content: `DO            FA          SOL DO                SOL7
+Danza allor ovunque tu sarai, sono il Signore della danza sai,
+   DO     DO7   FA          FA-7
+e ti condurro ovunque tu vorrai,
+   DO                SOL   DO
+e per sempre nell'anima tu danzerai.
+
+   DO                        FA              SOL
+Danzai al mattino quando il mondo comincio
+   DO                SOL7
+nel sole e nella luna il mio spirito danzo
+   DO        DO7          FA          FA-7
+son sceso dal cielo per portar la verita,
+   DO                     SOL     DO
+e percio chi mi segue, sempre danzera.
+
+DO            FA          SOL DO                SOL7
+Danza allor ovunque tu sarai, sono il Signore della danza sai,
+   DO     DO7   FA          FA-7
+e ti condurro ovunque tu vorrai,
+   DO                SOL   DO
+e per sempre nell'anima tu danzerai.
+
+   DO                        FA              SOL
+Danzai allora per gli scribi e farisei,
+   DO                SOL7
+ma erano incapaci e non sapevano imparar,
+   DO        DO7          FA          FA-7
+quando ai pescatori io chiesi di danzar,
+   DO                     SOL     DO
+subito impararono e si misero a ballar.
+
+DO            FA          SOL DO                SOL7
+Danza allor ovunque tu sarai, sono il Signore della danza sai,
+   DO     DO7   FA          FA-7
+e ti condurro ovunque tu vorrai,
+   DO                SOL   DO
+e per sempre nell'anima tu danzerai.
+
+   DO                        FA              SOL
+Di sabato volevano impedirmi di danzar,
+   DO                SOL7
+ad uno zoppo a vivere, sorridere, danzar,
+   DO        DO7          FA          FA-7
+poi mi inchiodarono al legno di una croce
+   DO                     SOL     DO
+ma non riuscirono a togliermi la voce.
+
+DO            FA          SOL DO                SOL7
+Danza allor ovunque tu sarai, sono il Signore della danza sai,
+   DO     DO7   FA          FA-7
+e ti condurro ovunque tu vorrai,
+   DO                SOL   DO
+e per sempre nell'anima tu danzerai.
+
+   DO                        FA              SOL
+Il cielo si oscuro quando danzai di venerdi,
+   DO                SOL7
+ma e difficile danzar cosi;
+   DO        DO7          FA          FA-7
+nella tomba, pensano, piu non danzera,
+   DO                     SOL     DO
+ma io sono la danza che mai finira!
+
+DO            FA          SOL DO                SOL7
+Danza allor ovunque tu sarai, sono il Signore della danza sai,
+   DO     DO7   FA          FA-7
+e ti condurro ovunque tu vorrai,
+   DO                SOL   DO
+e per sempre nell'anima tu danzerai.
+
+   DO                        FA              SOL
+Si, sono vivo e continuo a danzar,
+   DO                SOL7
+a soffrire, morire e ogni di risuscitar,
+   DO        DO7          FA          FA-7
+se vivrai in Me io vivro in te,
+   DO                     SOL     DO
+ed allora vieni e danza insieme a Me!
+
+DO            FA          SOL DO                SOL7
+Danza allor ovunque tu sarai, sono il Signore della danza sai,
+   DO     DO7   FA          FA-7
+e ti condurro ovunque tu vorrai,
+   DO                SOL   DO
+e per sempre nell'anima tu danzerai.`
+},
+
+{
+  id: "spirito-di-dio-vieni",
+  title: "Spirito di Dio vieni",
+  categories: ["chiesa"],
+  liturgia: ["ingresso"],
+  tempo: [],
+  content: `RE
+Spirito di Dio, vieni.
+SI-
+Spirito di Dio, vieni.
+SOL           MI-
+Spirito di Dio, vieni.
+LA            RE
+Spirito di Dio, vieni.
+
+RE
+Spirito di Dio, vieni.
+SI-
+Amore del Padre e del Figlio, vieni.
+SOL           MI-
+Alito di Cristo, vieni.
+LA            RE
+Spirito della promessa, vieni.
+
+RE
+Amore paziente e benigno, vieni.
+SI-
+Ospite dolce dell'Anima, vieni.
+SOL           MI-
+Tu che don la fede, vieni.
+LA            RE
+Tu che tutto scruti , vieni.
+
+RE
+Freschezza e riposo del cuore, vieni.
+SI-
+Risveglio dei dormienti, vieni.
+SOL           MI-
+Tu che riveli Cristo, vieni.
+LA            RE
+Artefice di tutto , vieni.`
+},
+
+{
+  id: "su-ali-d-aquila",
+  title: "Su ali d'aquila",
+  categories: ["chiesa"],
+  liturgia: ["comunione"],
+  tempo: [],
+  content: `SOL7+  RE7+  SOL7+  RE7+
+
+SOL7+         RE7+
+Tu che abiti al riparo del Signore
+SOL7+         RE7+
+e che dimori alla Sua ombra
+FA7+         SIb7+
+di' al Signore mio rifugio
+SOLm7    LA4/7 LA7
+mia roccia in cui confido.
+
+  RE     RE7+
+E ti rialzera, ti sollevera
+     MIm7
+su ali d'aquila
+LA4  LA7   LAm    RE7
+ti reggera sulla brezza dell'alba
+  SOL  MIm    SIm FA#m7
+ti fara brillar come il sole
+MIm7     LA4/7  RE
+cosi nelle sue mani vivrai.
+
+SOL7+         RE7+
+Dal laccio del cacciatore ti liberera
+SOL7+         RE7+
+e dalla carestia che distrugge
+FA7+         SIb7+
+poi ti coprira con le Sue ali
+SOLm7    LA4/7 LA7
+e rifugio troverai.
+
+Rit.
+  RE     RE7+
+E ti rialzera, ti sollevera
+     MIm7
+su ali d'aquila
+LA4  LA7   LAm    RE7
+ti reggera sulla brezza dell'alba
+  SOL  MIm    SIm FA#m7
+ti fara brillar come il sole
+MIm7     LA4/7  RE
+cosi nelle sue mani vivrai.
+
+SOL7+         RE7+
+Non devi temere i terrori della notte
+SOL7+         RE7+
+ne freccia che vola di giorno
+FA7+         SIb7+
+mille cadranno al tuo fianco
+SOLm7    LA4/7 LA7
+ma nulla ti colpira.
+
+Rit.
+  RE     RE7+
+E ti rialzera, ti sollevera
+     MIm7
+su ali d'aquila
+LA4  LA7   LAm    RE7
+ti reggera sulla brezza dell'alba
+  SOL  MIm    SIm FA#m7
+ti fara brillar come il sole
+MIm7     LA4/7  RE
+cosi nelle sue mani vivrai.
+
+SOL7+         RE7+
+Perche ai Suoi angeli ha dato un comando
+SOL7+         RE7+
+di preservarti in tutte le tue vie
+FA7+         SIb7+
+ti porteranno sulle loro mani
+SOLm7    LA4/7 LA7
+contro la pietra non inciamperai.
+
+  RE     RE7+
+E ti rialzero, ti sollevero
+     MIm7
+su ali d'aquila
+LA4  LA7   LAm    RE7
+ti reggero sulla brezza dell'alba
+  SOL  MIm    SIm FA#m7
+ti faro brillar come il sole
+MIm7     LA4/7  RE
+cosi nelle mie mani vivrai.`
+},
+
+{
+  id: "te-al-centro-del-mio-cuore",
+  title: "Te al centro del mio cuore",
+  categories: ["chiesa", "lode"],
+  liturgia: ["comunione"],
+  tempo: [],
+  content: `MI -              SOL
+Ho bisogno di incontrarti nel mio cuore,
+SI -              DO
+di trovare Te, di stare insieme a Te;
+LA -          MI -
+unico riferimento del mio andare
+DO      RE  SI -     MI -
+unica ragione Tu   unico sostegno Tu.
+  DO          RE       SOL
+Al centro del mio cuore ci sei solo Tu.
+
+     SI -        DO         SI -  MI -
+Tutto ruota attorno a Te, in funzione di Te,
+     SI -        DO          RE
+e poi non importa il "come" il "dove" il "se".
+
+MI -              SOL
+Anche il cielo gira intorno e non ha pace,
+SI -              DO
+ma c'e un punto fermo, e quella stella la.
+LA -          MI -
+La stella polare e fissa ed e la sola,
+DO      RE  SI -     MI -
+la stella polare Tu,   la stella sicura Tu.
+  DO          RE       SOL
+Al centro del mio cuore ci sei solo Tu.
+
+Rit.
+     SI -        DO         SI -  MI -
+Tutto ruota attorno a Te, in funzione di Te,
+     SI -        DO          RE
+e poi non importa il "come" il "dove" il "se".
+
+MI -              SOL
+Che Tu splenda sempre al centro del mio cuore,
+SI -              DO
+il significato allora sarai Tu,
+LA -                   MI -
+quello che faro sara soltanto amore.
+DO      RE  SI -     MI -
+Unico sostegno Tu.   la stella polare Tu .
+  DO          RE       SOL
+Al centro del mio cuore ci sei solo Tu.
+
+Rit.
+     SI -        DO         SI -  MI -
+Tutto ruota attorno a Te, in funzione di Te,
+     SI -        DO          RE
+e poi non importa il "come" il "dove" il "se".`
+},
+
+{
+  id: "tu-sei-bambino",
+  title: "Tu sei bambino",
+  categories: ["chiesa"],
+  liturgia: ["ingresso"],
+  tempo: ["natale"],
+  content: `Mi Si Do#- La Mi Si/Re# Do#- Mi
+
+     Mi          Si        Do#-
+1. Tu sei bambino, tu sei bambino
+     La
+infinito, Dio vicino.
+     Mi          Si        Do#-
+Tu sei bambino, tu sei bambino,
+     La
+nel Natale il nostro destino.
+     Mi          Si        Do#-
+Tu padrone dei cieli e dei popoli,
+     La
+tu l'Altissimo Dio degli eserciti,
+     Mi          Si
+sei quaggiu tu minuscolo,
+     Do#-         La
+sei quaggiu indifeso in mezzo a noi.
+
+     Mi   Si
+R. Grazie,
+     Do#-        La
+che sei venuto quaggiu a condividere.
+     Mi   Si
+Grazie,
+     Do#-        La       Mi
+per il tuo amore che non ha piu limiti.
+     Si     Do#-      La
+Tu bambino sei qui in questa grotta
+     Mi       Si        Do#-
+e tu resti a tremare, resti a tremare,
+     La
+a tremare come noi.
+
+2. Tu sei bambino, tu sei bambino,
+solo paglia il tuo cuscino...
+
+     Mi   Si
+R. Grazie,
+     Do#-        La
+che sei venuto quaggiu a condividere.
+     Mi   Si
+Grazie,
+     Do#-        La       Mi
+per il tuo amore che non ha piu limiti.
+     Si     Do#-      La
+Tu bambino sei qui in questa grotta
+     Mi       Si        Do#-
+e tu resti a tremare, resti a tremare,
+     La
+a tremare come noi.
+
+     Fa          Do        Re-
+3. Tu sei bambino, tu sei bambino
+     Sib
+infinito, Dio vicino.
+
+     Fa   Do
+R. Grazie,
+     Re-        Sib
+che sei venuto quaggiu a condividere.
+     Fa   Do
+Grazie,
+     Re-        Sib       Fa
+per il tuo amore che non ha piu limiti.
+     Do     Re-      Sib
+Tu bambino sei qui in questa grotta
+     Fa       Do        Re-
+e tu resti a tremare, resti a tremare,
+     Sib
+a tremare come noi.  x2
+Fa  Do  Sib Fa
+Grazie, grazie.`
+},
+
+{
+  id: "tu-sei",
+  title: "Tu sei",
+  categories: ["chiesa", "lode"],
+  liturgia: ["finale"],
+  tempo: [],
+  content: `  DO          RE-7
+Tu sei la prima stella del mattino
+  DO/MI       FA
+tu sei la nostra grande nostalgia
+  DO       RE-       SOL
+tu sei il cielo chiaro dopo la paura,
+SOL/SI    LA-        FA
+dopo la paura d'esserci perduti
+  RE-      DO/MI       SOL4  SOL
+e tornera la vita in questo mare
+
+          FA     DO       SOL    LA-
+Soffiera, soffiera il vento forte della vita
+          FA     DO       RE-  SOL DO
+Soffiera sulle vele e le gonfiera di te!
+          FA     DO       SOL    LA-
+Soffiera, soffiera il vento forte della vita
+          FA     DO       RE-  SOL DO
+Soffiera sulle vele e le gonfiera di te!
+
+  DO          RE-7
+Tu sei l'unico volto della pace
+  DO/MI       FA
+tu sei speranza nelle nostre mani
+  DO       RE-       SOL
+tu sei il vento nuovo sulle nostre ali,
+SOL/SI    LA-        FA
+Sulle nostre ali soffiera la vita
+  RE-      DO/MI       SOL4  SOL
+e gonfiera le vele per questo mare.
+
+Rit.
+          FA     DO       SOL    LA-
+Soffiera, soffiera il vento forte della vita
+          FA     DO       RE-  SOL DO
+Soffiera sulle vele e le gonfiera di te!
+          FA     DO       SOL    LA-
+Soffiera, soffiera il vento forte della vita
+          FA     DO       RE-  SOL DO
+Soffiera sulle vele e le gonfiera di te!`
+},
+
+{
+  id: "tutto-e-possibile",
+  title: "Tutto e possibile",
+  categories: ["chiesa"],
+  liturgia: ["finale"],
+  tempo: [],
+  content: `Intro: LA MI FA#- RE LA
+
+          LA              MI
+Questo e il luogo che Dio ha scelto per te,
+          FA#-          RE
+questo e il tempo pensato per te
+          LA              MI
+Quella che vedi e la strada che Lui traccera
+          FA#-          RE
+E quello che senti l'Amore che mai finira
+
+     LA          MI        FA#-    RE
+E andremo e annunceremo che in Lui tutto e possibile
+     LA          MI        FA#-    RE
+E andremo e annunceremo che nulla ci puo vincere
+     LA          MI        FA#-  RE
+Perche abbiamo udito le Sue parole
+     LA          MI        FA#-  RE
+Perche abbiam veduto vite cambiare
+     LA          MI     FA#- RE
+Perche abbiamo visto l'Amore vincere
+     LA          MI     FA#- RE
+Si abbiamo visto l'Amore vincere
+
+          LA              MI
+Questo e il momento che Dio ha atteso per te,
+          FA#-          RE
+questo e il sogno che ha fatto su te
+
+E andremo e annunceremo che in Lui tutto e possibile... (x2)
+
+          LA              MI
+Questo e il tempo che Dio ha scelto per te,
+          FA#-          RE
+questo e il sogno che aveva su te`
+},
+
+{
+  id: "verbum-panis",
+  title: "Verbum panis",
+  categories: ["chiesa"],
+  liturgia: ["comunione"],
+  tempo: [],
+  content: `INTRO: MI- MI- MI- DO RE MI-
+
+MI-  RE
+Prima del tempo
+     MI-     RE
+prima ancora  che la terra
+     MI-     RE
+cominciasse a vivere
+MI-  RE    MI-    RE MI- RE
+il verbo era presso Dio.
+
+MI-  RE
+Venne nel mondo
+     MI-     RE
+e per non abbandonarci
+     MI-     RE
+in questo viaggio ci lascio
+MI-  RE    MI-   RE MI-
+tutto se stesso come pane.
+
+               MI-
+Verbum caro factum est
+               MI-
+Verbum panis factum est
+               MI-
+Verbum caro factum est
+               DO RE4 RE
+Verbum panis factum est
+
+RIT. SOL  RE       DO
+     Qui spezzi ancora il pane
+          RE
+     in mezzo a noi
+     SOL          RE
+     e chiunque mangera
+     DO       RE
+     non avra piu fame.
+     SOL RE        DO
+     Qui vive la tua Chiesa
+          RE
+     intorno a te
+          SOL      RE
+     dove ognuno trovera
+     DO     SOL RE   MI-
+     la sua vera casa.
+
+MI-  RE
+Prima del tempo
+MI-     RE
+quando l'universo fu creato
+MI-     RE
+dall'oscurita
+MI-  RE    MI-    RE MI- RE
+il verbo era presso Dio.
+
+               MI-
+Verbum caro factum est
+               MI-
+Verbum panis factum est
+               MI-
+Verbum caro factum est
+               DO RE4 RE
+Verbum panis factum est
+
+Rit.
+     SOL  RE       DO
+     Qui spezzi ancora il pane
+          RE
+     in mezzo a noi
+     SOL          RE
+     e chiunque mangera
+     DO       RE
+     non avra piu fame.
+     SOL RE        DO
+     Qui vive la tua Chiesa
+          RE
+     intorno a te
+          SOL      RE
+     dove ognuno trovera
+     DO     SOL RE   MI-
+     la sua vera casa. (X2)`
+},
+
+{
+  id: "vieni-dal-libano",
+  title: "Vieni dal Libano",
+  categories: ["chiesa"],
+  liturgia: ["comunione"],
+  tempo: ["matrimonio"],
+  content: `MI-       RE
+Vieni dal Libano, mia sposa,
+DO     RE    MI-
+vieni dal Libano, vieni!
+MI-       RE
+Avrai per corona le vette dei monti
+DO     RE    MI-
+le alte cime dell'Ermon.
+MI-       RE
+Tu m'hai ferito, ferito il cuore
+DO  RE   MI-
+o sorella, mia sposa.
+MI-       RE
+Vieni dal Libano, mia sposa,
+DO     RE    MI-
+vieni dal Libano, vieni!
+
+MI-    SOL         RE
+Cercai l'amore dell'anima mia,
+     LA-       MI-
+lo cercai senza trovarlo.
+          SOL       RE
+Trovai l'amore dell'anima mia,
+     DO        RE     MI-
+l'ho abbracciato, non lo lascero mai!
+
+MI-       RE
+Io appartengo al mio diletto,
+DO     RE    MI-
+ed egli e tutto per me.
+
+Rit.
+MI-    SOL         RE
+Cercai l'amore dell'anima mia,
+     LA-       MI-
+lo cercai senza trovarlo.
+          SOL       RE
+Trovai l'amore dell'anima mia,
+     DO        RE     MI-
+l'ho abbracciato, non lo lascero mai!
+
+MI-       RE
+Come sigillo sul tuo cuore,
+DO     RE    MI-
+come sigillo sul tuo braccio!
+MI-       RE
+Che l'amore e forte come la morte
+DO     RE    MI-
+e l'acque non lo spegneranno.
+
+Rit.
+MI-    SOL         RE
+Cercai l'amore dell'anima mia,
+     LA-       MI-
+lo cercai senza trovarlo.
+          SOL       RE
+Trovai l'amore dell'anima mia,
+     DO        RE     MI-
+l'ho abbracciato, non lo lascero mai!`
+},
+
+{
+  id: "vieni-e-seguimi",
+  title: "Vieni e seguimi",
+  categories: ["chiesa"],
+  liturgia: ["finale"],
+  tempo: [],
+  content: `[Intro] DO REm7 DO
+
+     DO        REm7       DO
+Lascia che il mondo vada per la sua strada
+     MIm       LAm       SOL
+lascia che l'uomo ritorni alla sua casa
+     FA              DO
+lascia che la gente accumuli la sua fortuna.
+
+  SOL  FA   DO
+Ma tu, tu vieni e seguimi
+SOL FA   LAm
+tu, vieni e seguimi.
+
+REm7  DO       REm7       DO
+Lascia che la barca in mare spieghi la vela
+     MIm       LAm       SOL
+lascia che trovi affetto chi segue il cuore
+     FA              DO
+lascia che dall'albero cadano i frutti maturi.
+
+Rit.
+  SOL  FA   DO
+Ma tu, tu vieni e seguimi
+SOL FA   LAm
+tu, vieni e seguimi.
+
+     LA          RE
+E sarai luce per gli uomini
+     LA         MIm
+e sarai sale per la terra
+SOL       LA
+e nel mondo deserto aprirai
+     RE
+una strada nuova
+     LA       SIm7 LA
+e per questa strada va, _va
+  RE           LA DO
+e non voltarti indietro, va,
+  RE           LA
+e non voltarti indietro.`
+},
+
+{
+  id: "vieni-spirito-forza-dall-alto",
+  title: "Vieni Spirito, forza dall'alto",
+  categories: ["chiesa"],
+  liturgia: ["ingresso"],
+  tempo: [],
+  content: `     FA#-       RE
+Vieni Spirito,  forza dall'alto nel mio cuor,
+     MI        FA#-
+fammi rinascere Signor, Spirito!       (x2)
+
+     FA#-
+Come una fonte      vieni in me
+     RE
+Come un oceano     vieni in me
+     MI
+Come un fiume      vieni in me
+     FA#-          MI
+Come un fragore    vieni in me
+
+     FA#-       RE
+Vieni Spirito,  forza dall'alto nel mio cuor,
+     MI        FA#-
+fammi rinascere Signor, Spirito!       (x2)
+
+     FA#-
+Come un vento       con il tuo amore
+     RE
+Come una fiamma    con la tua luce
+     MI
+Come un fuoco      con la tua forza
+     FA#-          MI
+Come una luce      con la tua pace
+
+     FA#-       RE
+Vieni Spirito,  forza dall'alto nel mio cuor,
+     MI        FA#-
+fammi rinascere Signor, Spirito!       (x2)`
+},
+
+{
+  id: "vivere-la-vita",
+  title: "Vivere la vita",
+  categories: ["chiesa", "scout"],
+  liturgia: ["finale"],
+  tempo: [],
+  content: `DO        SOL
+Vivere la vita
+     RE-       FA
+con le gioie e coi dolori
+     LA-  SOL
+di ogni giorno,
+          DO       SOL
+e quello che Dio vuole da te.
+DO        SOL
+Vivere la vita
+     RE-       FA
+e inabissarti nell'amore
+     LA-  SOL
+e il tuo destino,
+          DO       SOL
+e quello che Dio vuole da te.
+
+FA            SOL
+Fare insieme agli altri
+     DO       MI-
+la tua strada verso Lui,
+FA       SOL     DO     MI-
+correre con i fratelli tuoi
+FA       SOL      7    DO6    MI-
+scoprirai allora il cielo dentro di te,
+FA       RE-       SOL
+una scia di luce lascerai.
+
+DO        SOL
+Vivere la vita
+     RE-       FA    LA-  SOL
+e l'avventura piu stupenda dell'amore.
+DO        SOL
+e quello che Dio vuole da te.
+
+FA            SOL
+Vivere perche
+     DO       MI-
+ritorni al mondo l'unita,
+FA       SOL     DO     MI-
+perche Dio sta nei fratelli tuoi ...
+FA       SOL      7    DO6    MI-
+Scoprirai allora il cielo dentro di te,
+FA       RE-       SOL
+una scia di luce lascerai,
+FA       RE-       DO
+una scia di luce lascerai.`
+},
+
+{
+  id: "vocazione",
+  title: "Vocazione",
+  categories: ["chiesa"],
+  liturgia: [],
+  tempo: [],
+  content: `DO        SOL       FA       SOL          DO FA DO SOL
+Era un giorno come tanti altri e quel giorno Lui passo.
+DO             SOL       FA       SOL          DO FA DO MI
+Era un uomo come tutti gli altri e passando mi chiamo.
+LA-        MI-     FA           SOL
+Come lo sapesse che, il mio nome era proprio quello
+DO        SOL       FA       SOL          DO FA DO SOL
+come mai vedesse proprio me nella Sua vita non lo so.
+DO        SOL       FA       SOL          DO FA DO MI
+Era un giorno come tanti altri e quel giorno mi chiamo.
+
+     LA-  MI-    FA        SOL
+Tu, Dio, che conosci il nome mio
+     LA-  MI-    FA        SOL
+Fa, che, ascoltando la Tua voce
+     DO    SOL    FA       SOL
+Io, ricordi, dove porta, la mia strada
+     DO    SOL    FA       DO FA DO SOL
+nella vita, all'incontro con Te.
+
+DO        SOL       FA       SOL          DO FA DO SOL
+Era l'alba triste e senza vita e qualcuno mi chiamo.
+DO             SOL       FA       SOL          DO FA DO MI
+Era un uomo come tanti altri ma la voce quella no.
+LA-              MI-     FA           SOL
+Quante volte un uomo con il nome giusto mi ha chiamato
+DO        SOL       FA       SOL          DO FA DO SOL
+una volta sola l'ho sentito pronunciare con amore.
+DO             SOL       FA       SOL          DO FA DO MI
+Era un uomo come nessun altro e quel giorno mi chiamo.
+
+Rit.
+     LA-  MI-    FA        SOL
+Tu, Dio, che conosci il nome mio
+     LA-  MI-    FA        SOL
+Fa, che, ascoltando la Tua voce
+     DO    SOL    FA       SOL
+Io, ricordi, dove porta, la mia strada
+     DO    SOL    FA       DO FA DO SOL
+nella vita, all'incontro con Te.`
+},
+
+{
+  id: "voi-siete-di-dio",
+  title: "Voi siete di Dio",
+  categories: ["chiesa", "lode"],
+  liturgia: ["finale"],
+  tempo: [],
+  content: `SOL RE DO(9) MI-7 DO(9) RE
+
+SOL           RE SOL
+Tutte le stelle della notte,
+SOL       RE MI-
+le nebulose, le comete,
+SOL           RE SOL
+il sole su una ragnatela,
+DO           SOL RE  DO
+e tutto vostro e voi siete di Dio.
+
+MI           SI MI
+Tutte le rose della vita,
+MI             SI DO#-
+il grano, i prati, i fili d'erba,
+MI             SI  MI
+il mare , i fiumi, le montagne,
+LA           MI SI MI
+e tutto vostro e voi siete di Dio.
+
+SOL           RE SOL
+Tutte le musiche e le danze,
+SOL       RE MI-
+i grattacieli, le astronavi,
+SOL           RE SOL
+i quadri, i libri, le culture,
+DO           SOL RE SOL
+e tutto vostro e voi siete di Dio.
+
+MI           SI  MI
+Tutte le volte che perdono,
+MI             SI  DO#-
+quando sorrido e quando piango,
+MI             SI MI
+quando mi accorgo di chi sono,
+LA             DO#- SI LA
+e tutto vostro e voi siete di Dio,
+LA             MI SI MI
+e tutto nostro e noi siamo di Dio.`
+},
+
+];

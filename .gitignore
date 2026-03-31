@@ -1,0 +1,4 @@
+# Ignore old songbook files
+Canzonieri old/
+.claude/
+.DS_Store
