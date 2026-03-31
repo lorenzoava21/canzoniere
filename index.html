@@ -8054,6 +8054,19 @@ e tutto nostro e noi siamo di Dio.`
   /* ==========================================================
      RENDERING: SCALETTA
      ========================================================== */
+  // Per-song transpose in scaletta (stored in state.scalettaTranspose[songId])
+  if (!state.scalettaTranspose) state.scalettaTranspose = {};
+
+  function getScalettaTranspose(songId) {
+    if (state.scalettaTranspose[songId] != null) return state.scalettaTranspose[songId];
+    // Fallback to saved per-song transpose
+    try {
+      var saved = localStorage.getItem('transpose_' + songId);
+      if (saved) return parseInt(saved, 10) || 0;
+    } catch(e) {}
+    return 0;
+  }
+
   function renderScaletta() {
     var html = '';
     var hasAnySong = false;
@@ -8070,10 +8083,20 @@ e tutto nostro e noi siamo di Dio.`
         html += '<hr class="scaletta-divider">';
       }
 
-      html += '<div class="scaletta-song">';
+      var semitones = getScalettaTranspose(song.id);
+      var transpLabel = semitones === 0 ? 'Originale' : (semitones > 0 ? '+' + semitones : '' + semitones);
+
+      html += '<div class="scaletta-song" data-scaletta-song="' + song.id + '">';
       html += '<div class="scaletta-part-label">' + escapeHtml(part.label) + '</div>';
-      html += '<div class="scaletta-song-title">' + escapeHtml(song.title) + '</div>';
-      html += '<div style="margin-top:10px">' + renderSong(song.content, 0, state.fontSize) + '</div>';
+      html += '<div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:8px">';
+      html += '<div class="scaletta-song-title" style="margin-bottom:0">' + escapeHtml(song.title) + '</div>';
+      html += '<div style="display:flex;align-items:center;gap:6px">';
+      html += '<button class="ctrl-btn scaletta-transpose-btn" data-dir="-1" data-song="' + song.id + '">&#8722;</button>';
+      html += '<span style="font-size:12px;font-weight:600;min-width:55px;text-align:center;color:var(--accent)">' + transpLabel + '</span>';
+      html += '<button class="ctrl-btn scaletta-transpose-btn" data-dir="1" data-song="' + song.id + '">+</button>';
+      html += '</div>';
+      html += '</div>';
+      html += '<div class="scaletta-song-content" data-song-id="' + song.id + '">' + renderSong(song.content, semitones, state.fontSize) + '</div>';
       html += '</div>';
     });
 
@@ -8082,6 +8105,19 @@ e tutto nostro e noi siamo di Dio.`
     }
 
     $scalettaContent.innerHTML = html;
+
+    // Bind transpose buttons
+    $scalettaContent.querySelectorAll('.scaletta-transpose-btn').forEach(function(btn) {
+      btn.addEventListener('click', function(e) {
+        e.stopPropagation();
+        var songId = btn.getAttribute('data-song');
+        var dir = parseInt(btn.getAttribute('data-dir'), 10);
+        var current = getScalettaTranspose(songId);
+        state.scalettaTranspose[songId] = current + dir;
+        try { localStorage.setItem('transpose_' + songId, String(state.scalettaTranspose[songId])); } catch(ex) {}
+        renderScaletta();
+      });
+    });
   }
 
   /* ==========================================================
@@ -8117,7 +8153,7 @@ e tutto nostro e noi siamo di Dio.`
       // For messa, scaletta, info - show in main content area
       showViewInMain(viewName);
       updateNavTabs(viewName === 'scaletta' ? 'messa' : viewName);
-      showFabContainer(false);
+      showFabContainer(viewName === 'scaletta');
       if (pushState !== false) {
         updateHash('#' + viewName);
       }
@@ -8143,7 +8179,7 @@ e tutto nostro e noi siamo di Dio.`
     $bottomNav.style.display = hideNav ? 'none' : '';
 
     // Show/hide FAB
-    showFabContainer(viewName === 'detail');
+    showFabContainer(viewName === 'detail' || viewName === 'scaletta');
 
     state.currentView = viewName;
 
@@ -8282,7 +8318,8 @@ e tutto nostro e noi siamo di Dio.`
      SCROLL-TO-TOP BUTTON
      ========================================================== */
   function updateScrollTopButton() {
-    if (state.currentView !== 'detail' && !(state.isSplitView && state.currentView === 'detail')) {
+    var showOn = (state.currentView === 'detail' || state.currentView === 'scaletta');
+    if (!showOn && !(state.isSplitView && state.currentView === 'detail')) {
       $btnScrollTop.classList.add('fab-hidden');
       return;
     }
